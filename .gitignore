@@ -217,5 +217,6 @@ __marimo__/
 
 # Blender500 
 dataset
-vector_store/Blender500_vectorstore
+Blender500_vectorstore
 .env
+experiments

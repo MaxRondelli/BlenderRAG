@@ -2,6 +2,7 @@ from datapizza.clients.anthropic import AnthropicClient
 from datapizza.clients.openai import OpenAIClient
 from datapizza.clients.google import GoogleClient
 from datapizza.clients.mistral import MistralClient
+from datapizza.clients.openai_like import OpenAILikeClient
 
 class LLM:
     def __init__(self, props):
@@ -160,6 +161,8 @@ No explanations before or after. Just the code block."""
                 self.client = MistralClient(api_key=props.api_key, model=self.model, system_prompt=self.system_prompt)
             elif props.llm_provider == 'ANTHROPIC':
                 self.client = AnthropicClient(api_key=props.api_key, model=self.model, system_prompt=self.system_prompt)
+            elif props.llm_provider == 'OPENROUTER':
+                self.client = OpenAILikeClient(api_key=props.api_key, model=self.model, system_prompt=self.system_prompt)
                 
         except ImportError as e:
             self.error = f"Failed to import client: {e}"
@@ -187,7 +190,6 @@ No explanations before or after. Just the code block."""
                 max_tokens=max_tokens
             ):
                 last_response = response
-            
             if last_response:
                 return last_response.text, None
             

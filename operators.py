@@ -1,9 +1,6 @@
 import bpy
 from bpy.types import Operator 
 import sys
-from .llm import LLM
-from .rag import get_rag_manager
-from .utils import process_response
 
 class RAG_OT_Generate(Operator):
     """Generate scene from prompt"""
@@ -12,6 +9,10 @@ class RAG_OT_Generate(Operator):
     bl_options = {'REGISTER', 'UNDO'}
     
     def execute(self, context):
+        from .llm import LLM
+        from .rag import get_rag_manager
+        from .utils import process_response
+
         props = context.scene.rag_props
         
         addon_name = __name__.split('.')[0]
