@@ -1,1 +1,1 @@
-### BlenderRAG: 3D Objects via Retrieval-Augmented Generation
+## BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis
