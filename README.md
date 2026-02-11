@@ -1,5 +1,4 @@
-# [IJCAI-ECAI 2026] BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis
-
+# BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis
 BlenderRAG is a retrieval-augmented generation system for creating high-fidelity 3D objects in Blender from natural language descriptions, implemented as a native Blender Add-on.
 
 ## Setup
