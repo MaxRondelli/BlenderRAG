@@ -1,10 +1,10 @@
 bl_info = {
-    "name": "Blender500",
+    "name": "BlenderRAG",
     "author": "Rondelli et al.",
     "version": (1, 0, 1),
     "blender": (3, 0, 0),
-    "location": "View3D > Sidebar > Blender500",
-    "description": "RAG Blender Add-On for common indoor and outdoor objects generation",
+    "location": "View3D > Sidebar > BlenderRAG",
+    "description": "BlenderRAG Add-On for indoor and outdoor objects generation",
     "category": "3D View",
 }
 
