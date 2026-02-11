@@ -3,11 +3,11 @@ import bpy
 from bpy.types import Panel
 
 class RAG_PT_Main(Panel):
-    bl_label = "Blender500"
+    bl_label = "BlenderRAG"
     bl_idname = "RAG_PT_main"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'Blender500'
+    bl_category = 'BlenderRAG'
     
     def draw(self, context):
         layout = self.layout
