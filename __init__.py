@@ -97,7 +97,7 @@ def install_dependencies():
         subprocess.check_call([
             python_exe, "-m", "pip", "install",
             "datapizza-ai", "datapizza-ai-clients-mistral", "datapizza-ai-clients-anthropic", 
-            "datapizza-ai-clients-google", "datapizza-ai-clients-openai",
+            "datapizza-ai-clients-google", "datapizza-ai-clients-openai", "datapizza-ai-clients-openai-like",
             "-t", lib_path,
             "--no-cache-dir",
             "--upgrade"
