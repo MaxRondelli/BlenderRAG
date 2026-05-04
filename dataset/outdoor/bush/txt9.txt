@@ -1,0 +1,1 @@
+Create an autumn bush variation by changing the leaf color to warm orange-red tones (Base Color: 0.8, 0.3, 0.1), increasing the base sphere's random vertex displacement range to 0.7-1.3 for a more irregular wild shape, and reducing the leaf density to 3000 points while increasing individual leaf size to 0.15 for a sparser, more seasonal appearance.

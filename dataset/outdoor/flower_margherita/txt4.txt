@@ -1,0 +1,1 @@
+Change the petals to a soft pink color (0.95, 0.7, 0.8, 1) with increased roughness of 0.6 for a more matte finish, reduce the number of petals from 21 to 13 for a simpler daisy appearance, and make the center slightly larger with radius 0.5*scale_factor while changing its color to a deeper orange (0.9, 0.4, 0.1, 1).

@@ -1,0 +1,1 @@
+Create a more delicate shrub with thinner, more graceful branches (reduce branch thickness by 40%), bright emerald green leaves with high gloss finish (roughness 0.2), and replace the spherical leaves with slightly flattened ellipsoids using scaled ico-spheres (scale z-axis to 0.6) for a more realistic leaf shape.

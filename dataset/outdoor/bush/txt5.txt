@@ -1,0 +1,1 @@
+Create an autumn-themed bush variation by changing the leaf color to warm orange-red tones (Base Color: 0.8, 0.3, 0.1) and increasing the leaf density to 8000 points for a fuller, more dense foliage appearance. Add slight material roughness variation by reducing it to 0.4 for a more vibrant, less matte finish that catches light better.

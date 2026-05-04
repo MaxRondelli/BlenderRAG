@@ -1,0 +1,3 @@
+SIMPLE TREE
+
+This script creates a basic, straightforward tree with a clean recursive branching structure that splits into three branches at lower depths and two branches at higher depths, providing an easy-to-understand foundation for procedural tree generation. The tree features simple cylindrical branches with brown bark and spherical green leaves distributed throughout the canopy, making it an ideal starting point for learning tree generation or for use as a generic background tree in scenes.

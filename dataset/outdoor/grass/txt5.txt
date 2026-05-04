@@ -1,0 +1,2 @@
+**Variation Description:**
+Change the grass from the typical green meadow grass to autumn/winter dormant grass with golden-brown and amber coloration in the material gradient, increase the particle count to 55000 for denser coverage, and make the grass blades slightly thicker by adjusting the scale to (0.035, 0.4, 1) for a more robust prairie grass appearance.

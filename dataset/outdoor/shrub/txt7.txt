@@ -1,0 +1,1 @@
+Create a more compact, bushier shrub variation by reducing branch length by 30% while increasing the number of branches per node to 4-7, making it denser and more rounded. Change the bark material to a lighter reddish-brown color (0.45, 0.25, 0.18) with increased roughness to 0.95 for a more weathered appearance.

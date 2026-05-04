@@ -1,0 +1,1 @@
+Create a smoother, more weathered rock variation with darker charcoal-gray base colors mixed with warm amber and copper tones, reduce the displacement strength by 40% for a more eroded appearance, and increase the subdivision surface level to 2 for smoother organic curves while maintaining the rugged rock essence.

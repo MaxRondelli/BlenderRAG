@@ -1,0 +1,1 @@
+Create a sunflower variation by changing the center to a darker brown-orange color with increased bump texture intensity, reducing the number of petals to 15 but making them slightly wider and more golden-yellow instead of white, and increasing the stem thickness by 50% while giving it a more vibrant green color with higher roughness for a more natural plant texture.

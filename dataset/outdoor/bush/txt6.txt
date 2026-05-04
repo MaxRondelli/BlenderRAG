@@ -1,0 +1,1 @@
+Create an autumn bush variation by changing the leaf color to warm orange-red tones (0.8, 0.3, 0.1) and increasing the base sphere's random vertex displacement range to (0.75, 1.25) for a more irregular, weathered shape, while adding slight amber tinting to the material's roughness at 0.8 for a dried foliage appearance.

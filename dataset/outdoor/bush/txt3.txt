@@ -1,0 +1,1 @@
+Change the leaf color to autumn orange-red tones (0.8, 0.3, 0.1) with increased roughness to 0.8 for a more matte finish, reduce the base sphere radius to 0.7 for a more compact bush shape, and decrease the leaf density to 3000 points for a sparser, more realistic foliage distribution.

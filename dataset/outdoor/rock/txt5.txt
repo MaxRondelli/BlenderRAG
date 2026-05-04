@@ -1,0 +1,1 @@
+Create a smoother, weathered limestone rock variation by reducing the displacement strength values to 0.3, 0.2, and 0.05 respectively, changing the base colors to warmer cream and tan tones (0.72, 0.68, 0.58) and (0.85, 0.78, 0.65), and replacing one Voronoi texture with Musgrave type for softer, more sedimentary-like surface patterns.

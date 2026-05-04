@@ -1,0 +1,1 @@
+Create a variation with a more compact, bushier appearance by reducing branch length by 20-30% while increasing the number of sub-branches per level, and change the leaf material to a brighter emerald green (0.15, 0.65, 0.25) with reduced roughness of 0.4 for a more vibrant, glossy foliage look.

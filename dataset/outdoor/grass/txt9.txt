@@ -1,0 +1,1 @@
+Create autumn grass with warmer, golden-brown color gradients in the grass material (deep amber at tips fading to olive-brown at base) and a richer, darker earth-brown ground material. Make the grass blades slightly thicker by increasing the scale width from 0.02 to 0.035, and add more pronounced curvature to simulate wind-bent autumn grass.

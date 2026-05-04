@@ -1,0 +1,4005 @@
+{
+  "dataset_version": "1.0",
+  "objects": [
+    {
+      "id": "armchair_indoor_1",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code1.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image1.png"
+    },
+    {
+      "id": "armchair_indoor_2",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code2.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image2.png"
+    },
+    {
+      "id": "armchair_indoor_3",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code3.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image3.png"
+    },
+    {
+      "id": "armchair_indoor_4",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code4.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image4.png"
+    },
+    {
+      "id": "armchair_indoor_5",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code5.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image5.png"
+    },
+    {
+      "id": "armchair_indoor_6",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code6.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image6.png"
+    },
+    {
+      "id": "armchair_indoor_7",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code7.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image7.png"
+    },
+    {
+      "id": "armchair_indoor_8",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code8.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image8.png"
+    },
+    {
+      "id": "armchair_indoor_9",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code9.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image9.png"
+    },
+    {
+      "id": "armchair_indoor_10",
+      "category": "armchair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\armchair\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\armchair\\code10.py",
+      "image_file": "..\\dataset\\indoor\\armchair\\image10.png"
+    },
+    {
+      "id": "bed_indoor_1",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code1.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image1.png"
+    },
+    {
+      "id": "bed_indoor_2",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code2.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image2.png"
+    },
+    {
+      "id": "bed_indoor_3",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code3.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image3.png"
+    },
+    {
+      "id": "bed_indoor_4",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code4.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image4.png"
+    },
+    {
+      "id": "bed_indoor_5",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code5.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image5.png"
+    },
+    {
+      "id": "bed_indoor_6",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code6.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image6.png"
+    },
+    {
+      "id": "bed_indoor_7",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code7.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image7.png"
+    },
+    {
+      "id": "bed_indoor_8",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code8.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image8.png"
+    },
+    {
+      "id": "bed_indoor_9",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code9.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image9.png"
+    },
+    {
+      "id": "bed_indoor_10",
+      "category": "bed",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bed\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\bed\\code10.py",
+      "image_file": "..\\dataset\\indoor\\bed\\image10.png"
+    },
+    {
+      "id": "bookshelf_indoor_1",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code1.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image1.png"
+    },
+    {
+      "id": "bookshelf_indoor_2",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code2.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image2.png"
+    },
+    {
+      "id": "bookshelf_indoor_3",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code3.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image3.png"
+    },
+    {
+      "id": "bookshelf_indoor_4",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code4.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image4.png"
+    },
+    {
+      "id": "bookshelf_indoor_5",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code5.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image5.png"
+    },
+    {
+      "id": "bookshelf_indoor_6",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code6.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image6.png"
+    },
+    {
+      "id": "bookshelf_indoor_7",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code7.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image7.png"
+    },
+    {
+      "id": "bookshelf_indoor_8",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code8.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image8.png"
+    },
+    {
+      "id": "bookshelf_indoor_9",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code9.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image9.png"
+    },
+    {
+      "id": "bookshelf_indoor_10",
+      "category": "bookshelf",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\bookshelf\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\bookshelf\\code10.py",
+      "image_file": "..\\dataset\\indoor\\bookshelf\\image10.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_1",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code1.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image1.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_2",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code2.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image2.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_3",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code3.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image3.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_4",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code4.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image4.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_5",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code5.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image5.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_6",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code6.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image6.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_7",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code7.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image7.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_8",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code8.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image8.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_9",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code9.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image9.png"
+    },
+    {
+      "id": "cabinet_kitchen_indoor_10",
+      "category": "cabinet_kitchen",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\cabinet_kitchen\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\cabinet_kitchen\\code10.py",
+      "image_file": "..\\dataset\\indoor\\cabinet_kitchen\\image10.png"
+    },
+    {
+      "id": "candle_indoor_1",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code1.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image1.png"
+    },
+    {
+      "id": "candle_indoor_2",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code2.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image2.png"
+    },
+    {
+      "id": "candle_indoor_3",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code3.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image3.png"
+    },
+    {
+      "id": "candle_indoor_4",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code4.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image4.png"
+    },
+    {
+      "id": "candle_indoor_5",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code5.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image5.png"
+    },
+    {
+      "id": "candle_indoor_6",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code6.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image6.png"
+    },
+    {
+      "id": "candle_indoor_7",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code7.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image7.png"
+    },
+    {
+      "id": "candle_indoor_8",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code8.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image8.png"
+    },
+    {
+      "id": "candle_indoor_9",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code9.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image9.png"
+    },
+    {
+      "id": "candle_indoor_10",
+      "category": "candle",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\candle\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\candle\\code10.py",
+      "image_file": "..\\dataset\\indoor\\candle\\image10.png"
+    },
+    {
+      "id": "chair_indoor_1",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code1.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image1.png"
+    },
+    {
+      "id": "chair_indoor_2",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code2.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image2.png"
+    },
+    {
+      "id": "chair_indoor_3",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code3.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image3.png"
+    },
+    {
+      "id": "chair_indoor_4",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code4.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image4.png"
+    },
+    {
+      "id": "chair_indoor_5",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code5.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image5.png"
+    },
+    {
+      "id": "chair_indoor_6",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code6.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image6.png"
+    },
+    {
+      "id": "chair_indoor_7",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code7.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image7.png"
+    },
+    {
+      "id": "chair_indoor_8",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code8.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image8.png"
+    },
+    {
+      "id": "chair_indoor_9",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code9.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image9.png"
+    },
+    {
+      "id": "chair_indoor_10",
+      "category": "chair",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\chair\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\chair\\code10.py",
+      "image_file": "..\\dataset\\indoor\\chair\\image10.png"
+    },
+    {
+      "id": "door_indoor_1",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code1.py",
+      "image_file": "..\\dataset\\indoor\\door\\image1.png"
+    },
+    {
+      "id": "door_indoor_2",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code2.py",
+      "image_file": "..\\dataset\\indoor\\door\\image2.png"
+    },
+    {
+      "id": "door_indoor_3",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code3.py",
+      "image_file": "..\\dataset\\indoor\\door\\image3.png"
+    },
+    {
+      "id": "door_indoor_4",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code4.py",
+      "image_file": "..\\dataset\\indoor\\door\\image4.png"
+    },
+    {
+      "id": "door_indoor_5",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code5.py",
+      "image_file": "..\\dataset\\indoor\\door\\image5.png"
+    },
+    {
+      "id": "door_indoor_6",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code6.py",
+      "image_file": "..\\dataset\\indoor\\door\\image6.png"
+    },
+    {
+      "id": "door_indoor_7",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code7.py",
+      "image_file": "..\\dataset\\indoor\\door\\image7.png"
+    },
+    {
+      "id": "door_indoor_8",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code8.py",
+      "image_file": "..\\dataset\\indoor\\door\\image8.png"
+    },
+    {
+      "id": "door_indoor_9",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code9.py",
+      "image_file": "..\\dataset\\indoor\\door\\image9.png"
+    },
+    {
+      "id": "door_indoor_10",
+      "category": "door",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\door\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\door\\code10.py",
+      "image_file": "..\\dataset\\indoor\\door\\image10.png"
+    },
+    {
+      "id": "frame_indoor_1",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code1.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image1.png"
+    },
+    {
+      "id": "frame_indoor_2",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code2.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image2.png"
+    },
+    {
+      "id": "frame_indoor_3",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code3.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image3.png"
+    },
+    {
+      "id": "frame_indoor_4",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code4.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image4.png"
+    },
+    {
+      "id": "frame_indoor_5",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code5.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image5.png"
+    },
+    {
+      "id": "frame_indoor_6",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code6.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image6.png"
+    },
+    {
+      "id": "frame_indoor_7",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code7.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image7.png"
+    },
+    {
+      "id": "frame_indoor_8",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code8.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image8.png"
+    },
+    {
+      "id": "frame_indoor_9",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code9.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image9.png"
+    },
+    {
+      "id": "frame_indoor_10",
+      "category": "frame",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\frame\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\frame\\code10.py",
+      "image_file": "..\\dataset\\indoor\\frame\\image10.png"
+    },
+    {
+      "id": "fridge_indoor_1",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code1.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image1.png"
+    },
+    {
+      "id": "fridge_indoor_2",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code2.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image2.png"
+    },
+    {
+      "id": "fridge_indoor_3",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code3.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image3.png"
+    },
+    {
+      "id": "fridge_indoor_4",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code4.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image4.png"
+    },
+    {
+      "id": "fridge_indoor_5",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code5.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image5.png"
+    },
+    {
+      "id": "fridge_indoor_6",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code6.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image6.png"
+    },
+    {
+      "id": "fridge_indoor_7",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code7.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image7.png"
+    },
+    {
+      "id": "fridge_indoor_8",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code8.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image8.png"
+    },
+    {
+      "id": "fridge_indoor_9",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code9.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image9.png"
+    },
+    {
+      "id": "fridge_indoor_10",
+      "category": "fridge",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\fridge\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\fridge\\code10.py",
+      "image_file": "..\\dataset\\indoor\\fridge\\image10.png"
+    },
+    {
+      "id": "glass_indoor_1",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code1.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image1.png"
+    },
+    {
+      "id": "glass_indoor_2",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code2.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image2.png"
+    },
+    {
+      "id": "glass_indoor_3",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code3.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image3.png"
+    },
+    {
+      "id": "glass_indoor_4",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code4.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image4.png"
+    },
+    {
+      "id": "glass_indoor_5",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code5.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image5.png"
+    },
+    {
+      "id": "glass_indoor_6",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code6.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image6.png"
+    },
+    {
+      "id": "glass_indoor_7",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code7.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image7.png"
+    },
+    {
+      "id": "glass_indoor_8",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code8.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image8.png"
+    },
+    {
+      "id": "glass_indoor_9",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code9.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image9.png"
+    },
+    {
+      "id": "glass_indoor_10",
+      "category": "glass",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\glass\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\glass\\code10.py",
+      "image_file": "..\\dataset\\indoor\\glass\\image10.png"
+    },
+    {
+      "id": "lamp_indoor_1",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code1.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image1.png"
+    },
+    {
+      "id": "lamp_indoor_2",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code2.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image2.png"
+    },
+    {
+      "id": "lamp_indoor_3",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code3.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image3.png"
+    },
+    {
+      "id": "lamp_indoor_4",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code4.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image4.png"
+    },
+    {
+      "id": "lamp_indoor_5",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code5.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image5.png"
+    },
+    {
+      "id": "lamp_indoor_6",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code6.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image6.png"
+    },
+    {
+      "id": "lamp_indoor_7",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code7.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image7.png"
+    },
+    {
+      "id": "lamp_indoor_8",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code8.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image8.png"
+    },
+    {
+      "id": "lamp_indoor_9",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code9.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image9.png"
+    },
+    {
+      "id": "lamp_indoor_10",
+      "category": "lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\lamp\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\lamp\\code10.py",
+      "image_file": "..\\dataset\\indoor\\lamp\\image10.png"
+    },
+    {
+      "id": "living_room_table_indoor_1",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code1.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image1.png"
+    },
+    {
+      "id": "living_room_table_indoor_2",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code2.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image2.png"
+    },
+    {
+      "id": "living_room_table_indoor_3",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code3.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image3.png"
+    },
+    {
+      "id": "living_room_table_indoor_4",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code4.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image4.png"
+    },
+    {
+      "id": "living_room_table_indoor_5",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code5.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image5.png"
+    },
+    {
+      "id": "living_room_table_indoor_6",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code6.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image6.png"
+    },
+    {
+      "id": "living_room_table_indoor_7",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code7.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image7.png"
+    },
+    {
+      "id": "living_room_table_indoor_8",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code8.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image8.png"
+    },
+    {
+      "id": "living_room_table_indoor_9",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code9.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image9.png"
+    },
+    {
+      "id": "living_room_table_indoor_10",
+      "category": "living_room_table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\living_room_table\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\living_room_table\\code10.py",
+      "image_file": "..\\dataset\\indoor\\living_room_table\\image10.png"
+    },
+    {
+      "id": "microwave_indoor_1",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code1.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image1.png"
+    },
+    {
+      "id": "microwave_indoor_2",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code2.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image2.png"
+    },
+    {
+      "id": "microwave_indoor_3",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code3.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image3.png"
+    },
+    {
+      "id": "microwave_indoor_4",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code4.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image4.png"
+    },
+    {
+      "id": "microwave_indoor_5",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code5.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image5.png"
+    },
+    {
+      "id": "microwave_indoor_6",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code6.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image6.png"
+    },
+    {
+      "id": "microwave_indoor_7",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code7.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image7.png"
+    },
+    {
+      "id": "microwave_indoor_8",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code8.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image8.png"
+    },
+    {
+      "id": "microwave_indoor_9",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code9.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image9.png"
+    },
+    {
+      "id": "microwave_indoor_10",
+      "category": "microwave",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\microwave\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\microwave\\code10.py",
+      "image_file": "..\\dataset\\indoor\\microwave\\image10.png"
+    },
+    {
+      "id": "mirror_indoor_1",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code1.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image1.png"
+    },
+    {
+      "id": "mirror_indoor_2",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code2.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image2.png"
+    },
+    {
+      "id": "mirror_indoor_3",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code3.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image3.png"
+    },
+    {
+      "id": "mirror_indoor_4",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code4.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image4.png"
+    },
+    {
+      "id": "mirror_indoor_5",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code5.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image5.png"
+    },
+    {
+      "id": "mirror_indoor_6",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code6.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image6.png"
+    },
+    {
+      "id": "mirror_indoor_7",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code7.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image7.png"
+    },
+    {
+      "id": "mirror_indoor_8",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code8.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image8.png"
+    },
+    {
+      "id": "mirror_indoor_9",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code9.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image9.png"
+    },
+    {
+      "id": "mirror_indoor_10",
+      "category": "mirror",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\mirror\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\mirror\\code10.py",
+      "image_file": "..\\dataset\\indoor\\mirror\\image10.png"
+    },
+    {
+      "id": "office_lamp_indoor_1",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code1.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image1.png"
+    },
+    {
+      "id": "office_lamp_indoor_2",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code2.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image2.png"
+    },
+    {
+      "id": "office_lamp_indoor_3",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code3.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image3.png"
+    },
+    {
+      "id": "office_lamp_indoor_4",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code4.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image4.png"
+    },
+    {
+      "id": "office_lamp_indoor_5",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code5.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image5.png"
+    },
+    {
+      "id": "office_lamp_indoor_6",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code6.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image6.png"
+    },
+    {
+      "id": "office_lamp_indoor_7",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code7.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image7.png"
+    },
+    {
+      "id": "office_lamp_indoor_8",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code8.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image8.png"
+    },
+    {
+      "id": "office_lamp_indoor_9",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code9.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image9.png"
+    },
+    {
+      "id": "office_lamp_indoor_10",
+      "category": "office_lamp",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\office_lamp\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\office_lamp\\code10.py",
+      "image_file": "..\\dataset\\indoor\\office_lamp\\image10.png"
+    },
+    {
+      "id": "pillow_indoor_1",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code1.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image1.png"
+    },
+    {
+      "id": "pillow_indoor_2",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code2.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image2.png"
+    },
+    {
+      "id": "pillow_indoor_3",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code3.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image3.png"
+    },
+    {
+      "id": "pillow_indoor_4",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code4.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image4.png"
+    },
+    {
+      "id": "pillow_indoor_5",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code5.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image5.png"
+    },
+    {
+      "id": "pillow_indoor_6",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code6.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image6.png"
+    },
+    {
+      "id": "pillow_indoor_7",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code7.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image7.png"
+    },
+    {
+      "id": "pillow_indoor_8",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code8.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image8.png"
+    },
+    {
+      "id": "pillow_indoor_9",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code9.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image9.png"
+    },
+    {
+      "id": "pillow_indoor_10",
+      "category": "pillow",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pillow\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\pillow\\code10.py",
+      "image_file": "..\\dataset\\indoor\\pillow\\image10.png"
+    },
+    {
+      "id": "plant_indoor_1",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code1.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image1.png"
+    },
+    {
+      "id": "plant_indoor_2",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code2.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image2.png"
+    },
+    {
+      "id": "plant_indoor_3",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code3.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image3.png"
+    },
+    {
+      "id": "plant_indoor_4",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code4.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image4.png"
+    },
+    {
+      "id": "plant_indoor_5",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code5.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image5.png"
+    },
+    {
+      "id": "plant_indoor_6",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code6.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image6.png"
+    },
+    {
+      "id": "plant_indoor_7",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code7.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image7.png"
+    },
+    {
+      "id": "plant_indoor_8",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code8.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image8.png"
+    },
+    {
+      "id": "plant_indoor_9",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code9.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image9.png"
+    },
+    {
+      "id": "plant_indoor_10",
+      "category": "plant",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plant\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\plant\\code10.py",
+      "image_file": "..\\dataset\\indoor\\plant\\image10.png"
+    },
+    {
+      "id": "plate_indoor_1",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code1.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image1.png"
+    },
+    {
+      "id": "plate_indoor_2",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code2.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image2.png"
+    },
+    {
+      "id": "plate_indoor_3",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code3.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image3.png"
+    },
+    {
+      "id": "plate_indoor_4",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code4.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image4.png"
+    },
+    {
+      "id": "plate_indoor_5",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code5.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image5.png"
+    },
+    {
+      "id": "plate_indoor_6",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code6.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image6.png"
+    },
+    {
+      "id": "plate_indoor_7",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code7.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image7.png"
+    },
+    {
+      "id": "plate_indoor_8",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code8.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image8.png"
+    },
+    {
+      "id": "plate_indoor_9",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code9.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image9.png"
+    },
+    {
+      "id": "plate_indoor_10",
+      "category": "plate",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\plate\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\plate\\code10.py",
+      "image_file": "..\\dataset\\indoor\\plate\\image10.png"
+    },
+    {
+      "id": "pot_indoor_1",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code1.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image1.png"
+    },
+    {
+      "id": "pot_indoor_2",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code2.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image2.png"
+    },
+    {
+      "id": "pot_indoor_3",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code3.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image3.png"
+    },
+    {
+      "id": "pot_indoor_4",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code4.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image4.png"
+    },
+    {
+      "id": "pot_indoor_5",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code5.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image5.png"
+    },
+    {
+      "id": "pot_indoor_6",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code6.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image6.png"
+    },
+    {
+      "id": "pot_indoor_7",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code7.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image7.png"
+    },
+    {
+      "id": "pot_indoor_8",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code8.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image8.png"
+    },
+    {
+      "id": "pot_indoor_9",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code9.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image9.png"
+    },
+    {
+      "id": "pot_indoor_10",
+      "category": "pot",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\pot\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\pot\\code10.py",
+      "image_file": "..\\dataset\\indoor\\pot\\image10.png"
+    },
+    {
+      "id": "rug_indoor_1",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code1.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image1.png"
+    },
+    {
+      "id": "rug_indoor_2",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code2.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image2.png"
+    },
+    {
+      "id": "rug_indoor_3",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code3.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image3.png"
+    },
+    {
+      "id": "rug_indoor_4",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code4.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image4.png"
+    },
+    {
+      "id": "rug_indoor_5",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code5.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image5.png"
+    },
+    {
+      "id": "rug_indoor_6",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code6.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image6.png"
+    },
+    {
+      "id": "rug_indoor_7",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code7.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image7.png"
+    },
+    {
+      "id": "rug_indoor_8",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code8.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image8.png"
+    },
+    {
+      "id": "rug_indoor_9",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code9.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image9.png"
+    },
+    {
+      "id": "rug_indoor_10",
+      "category": "rug",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\rug\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\rug\\code10.py",
+      "image_file": "..\\dataset\\indoor\\rug\\image10.png"
+    },
+    {
+      "id": "sofa_indoor_1",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code1.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image1.png"
+    },
+    {
+      "id": "sofa_indoor_2",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code2.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image2.png"
+    },
+    {
+      "id": "sofa_indoor_3",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code3.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image3.png"
+    },
+    {
+      "id": "sofa_indoor_4",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code4.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image4.png"
+    },
+    {
+      "id": "sofa_indoor_5",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code5.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image5.png"
+    },
+    {
+      "id": "sofa_indoor_6",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code6.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image6.png"
+    },
+    {
+      "id": "sofa_indoor_7",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code7.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image7.png"
+    },
+    {
+      "id": "sofa_indoor_8",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code8.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image8.png"
+    },
+    {
+      "id": "sofa_indoor_9",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code9.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image9.png"
+    },
+    {
+      "id": "sofa_indoor_10",
+      "category": "sofa",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\sofa\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\sofa\\code10.py",
+      "image_file": "..\\dataset\\indoor\\sofa\\image10.png"
+    },
+    {
+      "id": "table_indoor_1",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code1.py",
+      "image_file": "..\\dataset\\indoor\\table\\image1.png"
+    },
+    {
+      "id": "table_indoor_2",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code2.py",
+      "image_file": "..\\dataset\\indoor\\table\\image2.png"
+    },
+    {
+      "id": "table_indoor_3",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code3.py",
+      "image_file": "..\\dataset\\indoor\\table\\image3.png"
+    },
+    {
+      "id": "table_indoor_4",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code4.py",
+      "image_file": "..\\dataset\\indoor\\table\\image4.png"
+    },
+    {
+      "id": "table_indoor_5",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code5.py",
+      "image_file": "..\\dataset\\indoor\\table\\image5.png"
+    },
+    {
+      "id": "table_indoor_6",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code6.py",
+      "image_file": "..\\dataset\\indoor\\table\\image6.png"
+    },
+    {
+      "id": "table_indoor_7",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code7.py",
+      "image_file": "..\\dataset\\indoor\\table\\image7.png"
+    },
+    {
+      "id": "table_indoor_8",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code8.py",
+      "image_file": "..\\dataset\\indoor\\table\\image8.png"
+    },
+    {
+      "id": "table_indoor_9",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code9.py",
+      "image_file": "..\\dataset\\indoor\\table\\image9.png"
+    },
+    {
+      "id": "table_indoor_10",
+      "category": "table",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\table\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\table\\code10.py",
+      "image_file": "..\\dataset\\indoor\\table\\image10.png"
+    },
+    {
+      "id": "trash_can_indoor_1",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code1.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image1.png"
+    },
+    {
+      "id": "trash_can_indoor_2",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code2.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image2.png"
+    },
+    {
+      "id": "trash_can_indoor_3",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code3.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image3.png"
+    },
+    {
+      "id": "trash_can_indoor_4",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code4.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image4.png"
+    },
+    {
+      "id": "trash_can_indoor_5",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code5.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image5.png"
+    },
+    {
+      "id": "trash_can_indoor_6",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code6.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image6.png"
+    },
+    {
+      "id": "trash_can_indoor_7",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code7.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image7.png"
+    },
+    {
+      "id": "trash_can_indoor_8",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code8.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image8.png"
+    },
+    {
+      "id": "trash_can_indoor_9",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code9.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image9.png"
+    },
+    {
+      "id": "trash_can_indoor_10",
+      "category": "trash_can",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\trash_can\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\trash_can\\code10.py",
+      "image_file": "..\\dataset\\indoor\\trash_can\\image10.png"
+    },
+    {
+      "id": "wardrobe_indoor_1",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code1.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image1.png"
+    },
+    {
+      "id": "wardrobe_indoor_2",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code2.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image2.png"
+    },
+    {
+      "id": "wardrobe_indoor_3",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code3.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image3.png"
+    },
+    {
+      "id": "wardrobe_indoor_4",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code4.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image4.png"
+    },
+    {
+      "id": "wardrobe_indoor_5",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code5.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image5.png"
+    },
+    {
+      "id": "wardrobe_indoor_6",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code6.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image6.png"
+    },
+    {
+      "id": "wardrobe_indoor_7",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code7.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image7.png"
+    },
+    {
+      "id": "wardrobe_indoor_8",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code8.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image8.png"
+    },
+    {
+      "id": "wardrobe_indoor_9",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code9.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image9.png"
+    },
+    {
+      "id": "wardrobe_indoor_10",
+      "category": "wardrobe",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\wardrobe\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\wardrobe\\code10.py",
+      "image_file": "..\\dataset\\indoor\\wardrobe\\image10.png"
+    },
+    {
+      "id": "window_indoor_1",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt1.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code1.py",
+      "image_file": "..\\dataset\\indoor\\window\\image1.png"
+    },
+    {
+      "id": "window_indoor_2",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt2.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code2.py",
+      "image_file": "..\\dataset\\indoor\\window\\image2.png"
+    },
+    {
+      "id": "window_indoor_3",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt3.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code3.py",
+      "image_file": "..\\dataset\\indoor\\window\\image3.png"
+    },
+    {
+      "id": "window_indoor_4",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt4.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code4.py",
+      "image_file": "..\\dataset\\indoor\\window\\image4.png"
+    },
+    {
+      "id": "window_indoor_5",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt5.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code5.py",
+      "image_file": "..\\dataset\\indoor\\window\\image5.png"
+    },
+    {
+      "id": "window_indoor_6",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt6.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code6.py",
+      "image_file": "..\\dataset\\indoor\\window\\image6.png"
+    },
+    {
+      "id": "window_indoor_7",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt7.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code7.py",
+      "image_file": "..\\dataset\\indoor\\window\\image7.png"
+    },
+    {
+      "id": "window_indoor_8",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt8.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code8.py",
+      "image_file": "..\\dataset\\indoor\\window\\image8.png"
+    },
+    {
+      "id": "window_indoor_9",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt9.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code9.py",
+      "image_file": "..\\dataset\\indoor\\window\\image9.png"
+    },
+    {
+      "id": "window_indoor_10",
+      "category": "window",
+      "subcategory": "indoor",
+      "description_file": "..\\dataset\\indoor\\window\\txt10.txt",
+      "code_file": "..\\dataset\\indoor\\window\\code10.py",
+      "image_file": "..\\dataset\\indoor\\window\\image10.png"
+    },
+    {
+      "id": "ball_outdoor_1",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image1.png"
+    },
+    {
+      "id": "ball_outdoor_2",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image2.png"
+    },
+    {
+      "id": "ball_outdoor_3",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image3.png"
+    },
+    {
+      "id": "ball_outdoor_4",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image4.png"
+    },
+    {
+      "id": "ball_outdoor_5",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image5.png"
+    },
+    {
+      "id": "ball_outdoor_6",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image6.png"
+    },
+    {
+      "id": "ball_outdoor_7",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image7.png"
+    },
+    {
+      "id": "ball_outdoor_8",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image8.png"
+    },
+    {
+      "id": "ball_outdoor_9",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image9.png"
+    },
+    {
+      "id": "ball_outdoor_10",
+      "category": "ball",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\ball\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\ball\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\ball\\image10.png"
+    },
+    {
+      "id": "bell_tower_outdoor_1",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image1.png"
+    },
+    {
+      "id": "bell_tower_outdoor_2",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image2.png"
+    },
+    {
+      "id": "bell_tower_outdoor_3",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image3.png"
+    },
+    {
+      "id": "bell_tower_outdoor_4",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image4.png"
+    },
+    {
+      "id": "bell_tower_outdoor_5",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image5.png"
+    },
+    {
+      "id": "bell_tower_outdoor_6",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image6.png"
+    },
+    {
+      "id": "bell_tower_outdoor_7",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image7.png"
+    },
+    {
+      "id": "bell_tower_outdoor_8",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image8.png"
+    },
+    {
+      "id": "bell_tower_outdoor_9",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image9.png"
+    },
+    {
+      "id": "bell_tower_outdoor_10",
+      "category": "bell_tower",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bell_tower\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\bell_tower\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\bell_tower\\image10.png"
+    },
+    {
+      "id": "bench_outdoor_1",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image1.png"
+    },
+    {
+      "id": "bench_outdoor_2",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image2.png"
+    },
+    {
+      "id": "bench_outdoor_3",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image3.png"
+    },
+    {
+      "id": "bench_outdoor_4",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image4.png"
+    },
+    {
+      "id": "bench_outdoor_5",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image5.png"
+    },
+    {
+      "id": "bench_outdoor_6",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image6.png"
+    },
+    {
+      "id": "bench_outdoor_7",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image7.png"
+    },
+    {
+      "id": "bench_outdoor_8",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image8.png"
+    },
+    {
+      "id": "bench_outdoor_9",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image9.png"
+    },
+    {
+      "id": "bench_outdoor_10",
+      "category": "bench",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bench\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\bench\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\bench\\image10.png"
+    },
+    {
+      "id": "bin_outdoor_1",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image1.png"
+    },
+    {
+      "id": "bin_outdoor_2",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image2.png"
+    },
+    {
+      "id": "bin_outdoor_3",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image3.png"
+    },
+    {
+      "id": "bin_outdoor_4",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image4.png"
+    },
+    {
+      "id": "bin_outdoor_5",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image5.png"
+    },
+    {
+      "id": "bin_outdoor_6",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image6.png"
+    },
+    {
+      "id": "bin_outdoor_7",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image7.png"
+    },
+    {
+      "id": "bin_outdoor_8",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image8.png"
+    },
+    {
+      "id": "bin_outdoor_9",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image9.png"
+    },
+    {
+      "id": "bin_outdoor_10",
+      "category": "bin",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bin\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\bin\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\bin\\image10.png"
+    },
+    {
+      "id": "bush_outdoor_1",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image1.png"
+    },
+    {
+      "id": "bush_outdoor_2",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image2.png"
+    },
+    {
+      "id": "bush_outdoor_3",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image3.png"
+    },
+    {
+      "id": "bush_outdoor_4",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image4.png"
+    },
+    {
+      "id": "bush_outdoor_5",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image5.png"
+    },
+    {
+      "id": "bush_outdoor_6",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image6.png"
+    },
+    {
+      "id": "bush_outdoor_7",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image7.png"
+    },
+    {
+      "id": "bush_outdoor_8",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image8.png"
+    },
+    {
+      "id": "bush_outdoor_9",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image9.png"
+    },
+    {
+      "id": "bush_outdoor_10",
+      "category": "bush",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\bush\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\bush\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\bush\\image10.png"
+    },
+    {
+      "id": "cactus_outdoor_1",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image1.png"
+    },
+    {
+      "id": "cactus_outdoor_2",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image2.png"
+    },
+    {
+      "id": "cactus_outdoor_3",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image3.png"
+    },
+    {
+      "id": "cactus_outdoor_4",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image4.png"
+    },
+    {
+      "id": "cactus_outdoor_5",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image5.png"
+    },
+    {
+      "id": "cactus_outdoor_6",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image6.png"
+    },
+    {
+      "id": "cactus_outdoor_7",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image7.png"
+    },
+    {
+      "id": "cactus_outdoor_8",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image8.png"
+    },
+    {
+      "id": "cactus_outdoor_9",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image9.png"
+    },
+    {
+      "id": "cactus_outdoor_10",
+      "category": "cactus",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\cactus\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\cactus\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\cactus\\image10.png"
+    },
+    {
+      "id": "car_outdoor_1",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image1.png"
+    },
+    {
+      "id": "car_outdoor_2",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image2.png"
+    },
+    {
+      "id": "car_outdoor_3",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image3.png"
+    },
+    {
+      "id": "car_outdoor_4",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image4.png"
+    },
+    {
+      "id": "car_outdoor_5",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image5.png"
+    },
+    {
+      "id": "car_outdoor_6",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image6.png"
+    },
+    {
+      "id": "car_outdoor_7",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image7.png"
+    },
+    {
+      "id": "car_outdoor_8",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image8.png"
+    },
+    {
+      "id": "car_outdoor_9",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image9.png"
+    },
+    {
+      "id": "car_outdoor_10",
+      "category": "car",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\car\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\car\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\car\\image10.png"
+    },
+    {
+      "id": "condominium_outdoor_1",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image1.png"
+    },
+    {
+      "id": "condominium_outdoor_2",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image2.png"
+    },
+    {
+      "id": "condominium_outdoor_3",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image3.png"
+    },
+    {
+      "id": "condominium_outdoor_4",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image4.png"
+    },
+    {
+      "id": "condominium_outdoor_5",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image5.png"
+    },
+    {
+      "id": "condominium_outdoor_6",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image6.png"
+    },
+    {
+      "id": "condominium_outdoor_7",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image7.png"
+    },
+    {
+      "id": "condominium_outdoor_8",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image8.png"
+    },
+    {
+      "id": "condominium_outdoor_9",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image9.png"
+    },
+    {
+      "id": "condominium_outdoor_10",
+      "category": "condominium",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\condominium\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\condominium\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\condominium\\image10.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_1",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image1.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_2",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image2.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_3",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image3.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_4",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image4.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_5",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image5.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_6",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image6.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_7",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image7.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_8",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image8.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_9",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image9.png"
+    },
+    {
+      "id": "flower_margherita_outdoor_10",
+      "category": "flower_margherita",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\flower_margherita\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\flower_margherita\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\flower_margherita\\image10.png"
+    },
+    {
+      "id": "fountain_outdoor_1",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image1.png"
+    },
+    {
+      "id": "fountain_outdoor_2",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image2.png"
+    },
+    {
+      "id": "fountain_outdoor_3",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image3.png"
+    },
+    {
+      "id": "fountain_outdoor_4",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image4.png"
+    },
+    {
+      "id": "fountain_outdoor_5",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image5.png"
+    },
+    {
+      "id": "fountain_outdoor_6",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image6.png"
+    },
+    {
+      "id": "fountain_outdoor_7",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image7.png"
+    },
+    {
+      "id": "fountain_outdoor_8",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image8.png"
+    },
+    {
+      "id": "fountain_outdoor_9",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image9.png"
+    },
+    {
+      "id": "fountain_outdoor_10",
+      "category": "fountain",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\fountain\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\fountain\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\fountain\\image10.png"
+    },
+    {
+      "id": "gate_outdoor_1",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image1.png"
+    },
+    {
+      "id": "gate_outdoor_2",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image2.png"
+    },
+    {
+      "id": "gate_outdoor_3",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image3.png"
+    },
+    {
+      "id": "gate_outdoor_4",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image4.png"
+    },
+    {
+      "id": "gate_outdoor_5",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image5.png"
+    },
+    {
+      "id": "gate_outdoor_6",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image6.png"
+    },
+    {
+      "id": "gate_outdoor_7",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image7.png"
+    },
+    {
+      "id": "gate_outdoor_8",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image8.png"
+    },
+    {
+      "id": "gate_outdoor_9",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image9.png"
+    },
+    {
+      "id": "gate_outdoor_10",
+      "category": "gate",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gate\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\gate\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\gate\\image10.png"
+    },
+    {
+      "id": "gazebo_outdoor_1",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image1.png"
+    },
+    {
+      "id": "gazebo_outdoor_2",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image2.png"
+    },
+    {
+      "id": "gazebo_outdoor_3",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image3.png"
+    },
+    {
+      "id": "gazebo_outdoor_4",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image4.png"
+    },
+    {
+      "id": "gazebo_outdoor_5",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image5.png"
+    },
+    {
+      "id": "gazebo_outdoor_6",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image6.png"
+    },
+    {
+      "id": "gazebo_outdoor_7",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image7.png"
+    },
+    {
+      "id": "gazebo_outdoor_8",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image8.png"
+    },
+    {
+      "id": "gazebo_outdoor_9",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image9.png"
+    },
+    {
+      "id": "gazebo_outdoor_10",
+      "category": "gazebo",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\gazebo\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\gazebo\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\gazebo\\image10.png"
+    },
+    {
+      "id": "grass_outdoor_1",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image1.png"
+    },
+    {
+      "id": "grass_outdoor_2",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image2.png"
+    },
+    {
+      "id": "grass_outdoor_3",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image3.png"
+    },
+    {
+      "id": "grass_outdoor_4",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image4.png"
+    },
+    {
+      "id": "grass_outdoor_5",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image5.png"
+    },
+    {
+      "id": "grass_outdoor_6",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image6.png"
+    },
+    {
+      "id": "grass_outdoor_7",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image7.png"
+    },
+    {
+      "id": "grass_outdoor_8",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image8.png"
+    },
+    {
+      "id": "grass_outdoor_9",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image9.png"
+    },
+    {
+      "id": "grass_outdoor_10",
+      "category": "grass",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\grass\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\grass\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\grass\\image10.png"
+    },
+    {
+      "id": "hedge_outdoor_1",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image1.png"
+    },
+    {
+      "id": "hedge_outdoor_2",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image2.png"
+    },
+    {
+      "id": "hedge_outdoor_3",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image3.png"
+    },
+    {
+      "id": "hedge_outdoor_4",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image4.png"
+    },
+    {
+      "id": "hedge_outdoor_5",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image5.png"
+    },
+    {
+      "id": "hedge_outdoor_6",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image6.png"
+    },
+    {
+      "id": "hedge_outdoor_7",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image7.png"
+    },
+    {
+      "id": "hedge_outdoor_8",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image8.png"
+    },
+    {
+      "id": "hedge_outdoor_9",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image9.png"
+    },
+    {
+      "id": "hedge_outdoor_10",
+      "category": "hedge",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\hedge\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\hedge\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\hedge\\image10.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_1",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image1.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_2",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image2.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_3",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image3.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_4",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image4.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_5",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image5.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_6",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image6.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_7",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image7.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_8",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image8.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_9",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image9.png"
+    },
+    {
+      "id": "humanoid_statue_outdoor_10",
+      "category": "humanoid_statue",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\humanoid_statue\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\humanoid_statue\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\humanoid_statue\\image10.png"
+    },
+    {
+      "id": "mountains_outdoor_1",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image1.png"
+    },
+    {
+      "id": "mountains_outdoor_2",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image2.png"
+    },
+    {
+      "id": "mountains_outdoor_3",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image3.png"
+    },
+    {
+      "id": "mountains_outdoor_4",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image4.png"
+    },
+    {
+      "id": "mountains_outdoor_5",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image5.png"
+    },
+    {
+      "id": "mountains_outdoor_6",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image6.png"
+    },
+    {
+      "id": "mountains_outdoor_7",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image7.png"
+    },
+    {
+      "id": "mountains_outdoor_8",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image8.png"
+    },
+    {
+      "id": "mountains_outdoor_9",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image9.png"
+    },
+    {
+      "id": "mountains_outdoor_10",
+      "category": "mountains",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\mountains\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\mountains\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\mountains\\image10.png"
+    },
+    {
+      "id": "rock_outdoor_1",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image1.png"
+    },
+    {
+      "id": "rock_outdoor_2",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image2.png"
+    },
+    {
+      "id": "rock_outdoor_3",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image3.png"
+    },
+    {
+      "id": "rock_outdoor_4",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image4.png"
+    },
+    {
+      "id": "rock_outdoor_5",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image5.png"
+    },
+    {
+      "id": "rock_outdoor_6",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image6.png"
+    },
+    {
+      "id": "rock_outdoor_7",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image7.png"
+    },
+    {
+      "id": "rock_outdoor_8",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image8.png"
+    },
+    {
+      "id": "rock_outdoor_9",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image9.png"
+    },
+    {
+      "id": "rock_outdoor_10",
+      "category": "rock",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\rock\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\rock\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\rock\\image10.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_1",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image1.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_2",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image2.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_3",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image3.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_4",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image4.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_5",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image5.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_6",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image6.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_7",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image7.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_8",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image8.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_9",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image9.png"
+    },
+    {
+      "id": "sea_umbrella_outdoor_10",
+      "category": "sea_umbrella",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\sea_umbrella\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\sea_umbrella\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\sea_umbrella\\image10.png"
+    },
+    {
+      "id": "shrub_outdoor_1",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image1.png"
+    },
+    {
+      "id": "shrub_outdoor_2",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image2.png"
+    },
+    {
+      "id": "shrub_outdoor_3",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image3.png"
+    },
+    {
+      "id": "shrub_outdoor_4",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image4.png"
+    },
+    {
+      "id": "shrub_outdoor_5",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image5.png"
+    },
+    {
+      "id": "shrub_outdoor_6",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image6.png"
+    },
+    {
+      "id": "shrub_outdoor_7",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image7.png"
+    },
+    {
+      "id": "shrub_outdoor_8",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image8.png"
+    },
+    {
+      "id": "shrub_outdoor_9",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image9.png"
+    },
+    {
+      "id": "shrub_outdoor_10",
+      "category": "shrub",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\shrub\\image10.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_1",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image1.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_2",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image2.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_3",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image3.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_4",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image4.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_5",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image5.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_6",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image6.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_7",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image7.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_8",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image8.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_9",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image9.png"
+    },
+    {
+      "id": "shrub_leaf_outdoor_10",
+      "category": "shrub_leaf",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\shrub_leaf\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\shrub_leaf\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\shrub_leaf\\image10.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_1",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image1.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_2",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image2.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_3",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image3.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_4",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image4.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_5",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image5.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_6",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image6.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_7",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image7.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_8",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image8.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_9",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image9.png"
+    },
+    {
+      "id": "skyscrapers_outdoor_10",
+      "category": "skyscrapers",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\skyscrapers\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\skyscrapers\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\skyscrapers\\image10.png"
+    },
+    {
+      "id": "stoplight_outdoor_1",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image1.png"
+    },
+    {
+      "id": "stoplight_outdoor_2",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image2.png"
+    },
+    {
+      "id": "stoplight_outdoor_3",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image3.png"
+    },
+    {
+      "id": "stoplight_outdoor_4",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image4.png"
+    },
+    {
+      "id": "stoplight_outdoor_5",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image5.png"
+    },
+    {
+      "id": "stoplight_outdoor_6",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image6.png"
+    },
+    {
+      "id": "stoplight_outdoor_7",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image7.png"
+    },
+    {
+      "id": "stoplight_outdoor_8",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image8.png"
+    },
+    {
+      "id": "stoplight_outdoor_9",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image9.png"
+    },
+    {
+      "id": "stoplight_outdoor_10",
+      "category": "stoplight",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stoplight\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\stoplight\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\stoplight\\image10.png"
+    },
+    {
+      "id": "stop_signal_outdoor_1",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image1.png"
+    },
+    {
+      "id": "stop_signal_outdoor_2",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image2.png"
+    },
+    {
+      "id": "stop_signal_outdoor_3",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image3.png"
+    },
+    {
+      "id": "stop_signal_outdoor_4",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image4.png"
+    },
+    {
+      "id": "stop_signal_outdoor_5",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image5.png"
+    },
+    {
+      "id": "stop_signal_outdoor_6",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image6.png"
+    },
+    {
+      "id": "stop_signal_outdoor_7",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image7.png"
+    },
+    {
+      "id": "stop_signal_outdoor_8",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image8.png"
+    },
+    {
+      "id": "stop_signal_outdoor_9",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image9.png"
+    },
+    {
+      "id": "stop_signal_outdoor_10",
+      "category": "stop_signal",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\stop_signal\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\stop_signal\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\stop_signal\\image10.png"
+    },
+    {
+      "id": "street_lamp_outdoor_1",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image1.png"
+    },
+    {
+      "id": "street_lamp_outdoor_2",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image2.png"
+    },
+    {
+      "id": "street_lamp_outdoor_3",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image3.png"
+    },
+    {
+      "id": "street_lamp_outdoor_4",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image4.png"
+    },
+    {
+      "id": "street_lamp_outdoor_5",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image5.png"
+    },
+    {
+      "id": "street_lamp_outdoor_6",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image6.png"
+    },
+    {
+      "id": "street_lamp_outdoor_7",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image7.png"
+    },
+    {
+      "id": "street_lamp_outdoor_8",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image8.png"
+    },
+    {
+      "id": "street_lamp_outdoor_9",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image9.png"
+    },
+    {
+      "id": "street_lamp_outdoor_10",
+      "category": "street_lamp",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\street_lamp\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\street_lamp\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\street_lamp\\image10.png"
+    },
+    {
+      "id": "tree_outdoor_1",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt1.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code1.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image1.png"
+    },
+    {
+      "id": "tree_outdoor_2",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt2.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code2.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image2.png"
+    },
+    {
+      "id": "tree_outdoor_3",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt3.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code3.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image3.png"
+    },
+    {
+      "id": "tree_outdoor_4",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt4.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code4.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image4.png"
+    },
+    {
+      "id": "tree_outdoor_5",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt5.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code5.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image5.png"
+    },
+    {
+      "id": "tree_outdoor_6",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt6.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code6.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image6.png"
+    },
+    {
+      "id": "tree_outdoor_7",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt7.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code7.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image7.png"
+    },
+    {
+      "id": "tree_outdoor_8",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt8.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code8.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image8.png"
+    },
+    {
+      "id": "tree_outdoor_9",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt9.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code9.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image9.png"
+    },
+    {
+      "id": "tree_outdoor_10",
+      "category": "tree",
+      "subcategory": "outdoor",
+      "description_file": "..\\dataset\\outdoor\\tree\\txt10.txt",
+      "code_file": "..\\dataset\\outdoor\\tree\\code10.py",
+      "image_file": "..\\dataset\\outdoor\\tree\\image10.png"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+BIRCH TREE
+
+This script creates a slender birch tree with distinctive white bark and characteristic dark horizontal markings created using torus shapes wrapped around the trunk at random intervals. The tree features delicate, upward-reaching branches that taper gracefully, adorned with small elongated leaves in a bright yellowish-green color, capturing the elegant and refined appearance of this Northern temperate species.

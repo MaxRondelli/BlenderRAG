@@ -1,0 +1,1 @@
+Create an autumn bush variation by changing the leaf color to warm orange-red tones (Base Color: 0.8, 0.3, 0.1), increasing the base sphere's radius to 1.3 for a fuller appearance, and reducing the leaf distribution density to 3500 points for a more sparse, seasonal look.

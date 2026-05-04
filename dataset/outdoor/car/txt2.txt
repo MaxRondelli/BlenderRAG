@@ -1,0 +1,1 @@
+Create a sports car variation by making the car body lower and more aerodynamic (scale z to 0.25), changing the main body color to a deep metallic blue, and making the cabin significantly smaller and more angular (scale to 1.0, 0.8, 0.35) for a sleeker racing appearance.

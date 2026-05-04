@@ -1,0 +1,1 @@
+Steep cliff face with dramatic vertical drop and flat plateau on top. Layered rock material with Voronoi displacement reaching ~7 units at plateau.

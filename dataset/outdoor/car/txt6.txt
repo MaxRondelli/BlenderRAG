@@ -1,0 +1,1 @@
+Create a sports car variation by making the car body longer and lower (scale y=1.2, z=0.25), changing the main body color to deep blue metallic with higher roughness (0.3), and making the wheels slightly larger with black rims instead of chrome.

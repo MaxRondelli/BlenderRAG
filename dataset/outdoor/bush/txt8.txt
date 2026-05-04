@@ -1,0 +1,1 @@
+This variation creates an autumn bush with warm orange-red foliage by changing the leaf material color to (0.8, 0.3, 0.1, 1), increases the leaf density to 8000 for a fuller appearance, and makes the leaves slightly larger by scaling the leaf plane to size=0.15 for a more mature, seasonal look.

@@ -1,0 +1,1 @@
+Create a sports car variation by making the car body lower and wider (scale Y to 1.2), changing the main body color to a deep blue metallic with higher metallic value (0.95), and making the cabin significantly smaller and more aerodynamic by reducing its Z-scale to 0.3 and shifting it further back.
