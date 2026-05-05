@@ -1,55 +1,204 @@
-# BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis
+# BlenderRAG
 
-BlenderRAG is a retrieval-augmented generation system for creating high-fidelity 3D objects in Blender from natural language descriptions, implemented as a native Blender Add-on.
+### High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis
 
-**Dataset Availability:** The dataset will be publicly released upon acceptance of our accompanying paper, currently under review. ⭐ Star this repo to be notified when it becomes available.
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2605.00632)
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow.svg)](https://huggingface.co/datasets/MaxRondelli/BlenderRAG)
+[![HF Page](https://img.shields.io/badge/HF-Page-blue.svg)](https://huggingface.co/papers/2605.00632)
 
-## Setup
+**BlenderRAG** is a retrieval-augmented generation system that turns natural language descriptions into high-fidelity 3D objects in Blender. Distributed as a native Blender Add-on, it combines semantic retrieval over a curated code dataset with LLM-driven Python synthesis — so you can describe an object and watch it appear in your scene.
 
-Clone the repository, create a conda environment and install the required packages as follows.
+> 💬 *"a modern wooden chair with armrests"* → 🪑 *generated mesh in your viewport*
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [How It Works](#-how-it-works)
+- [Setup](#-setup)
+- [Blender Add-on Installation](#-blender-add-on-installation)
+- [Usage](#-usage)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [Citation](#-citation)
+- [License](#-license)
+
+---
+
+## 🔭 Overview
+
+Generating 3D content from text remains challenging: end-to-end mesh generators often produce low-fidelity results, while code-driven approaches struggle with the breadth of Blender's API. **BlenderRAG** bridges this gap by retrieving semantically similar (description, code) pairs from a curated dataset and conditioning an LLM on them to produce executable Blender Python code.
+
+The result: cleaner geometry, more controllable outputs, and a workflow that lives directly inside Blender.
+
+---
+
+## ✨ Key Features
+
+- 🧩 **Native Blender Add-on** — install once, use from the 3D viewport sidebar.
+- 🔍 **Retrieval-Augmented Generation** — grounds LLM output in a curated dataset of Blender code examples.
+- 🤖 **Multi-LLM Support** — switch between open and closed-source language models.
+- ⚡ **Automatic Code Execution** — generated Python runs in Blender without manual intervention.
+- 🗂️ **Local Vector Database** — Qdrant-based retrieval, initialized automatically on first use.
+- 🧠 **Semantic Embeddings** — powered by Nomic-AI for high-quality similarity search.
+
+---
+
+## ⚙️ How It Works
+
+
+
+On first run, the add-on initializes a local Qdrant database and indexes the BlenderRAG dataset. Each subsequent prompt retrieves the top-*k* most similar examples and conditions the LLM on them to synthesize Blender Python code, which is then executed directly in your scene.
+
+---
+
+## 🚀 Setup
+
+### Prerequisites
+
+- **Blender** 4.0 or later
+- **Python** 3.12
+- **Conda** (recommended) or any Python environment manager
+- An API key for your chosen LLM provider (if using a closed model)
+
+### Installation
+
+Clone the repository and set up the Python environment:
 
 ```bash
+git clone https://github.com/<your-org>/BlenderRAG.git
+cd BlenderRAG
+
 conda create -n blender_rag python=3.12
 conda activate blender_rag
 pip install -r requirements.txt
 ```
 
-## Blender Add-on Installation
+---
 
-In this section we provide information about how to install the Add-on. We divide this section into three parts:
+## 🧩 Blender Add-on Installation
 
-1. Add the project into the Blender environment.
-2. Download necessary dependencies.
-3. Use of BlenderRAG Add-on.
+The add-on is installed in three steps: import the project, download dependencies, and configure.
 
-### Step 1. Add the Project into the Blender Environment
+### Step 1 — Import the project into Blender
 
-- To import the add-on into Blender, you must create a `.zip` file of this repository. Then, navigate through the Blender UI to **Edit > Preferences > Add-ons**.
-- Click the dropdown menu in the top-right corner and select **Install from Disk**. Choose the `.zip` file of this repository.
-- Once imported, you can access the BlenderRAG UI in the right sidebar (press `N` if hidden) of Blender's 3D viewport.
+1. Create a `.zip` archive of the repository (compress the project folder).
+2. In Blender, open **Edit → Preferences → Add-ons**.
+3. Click the dropdown in the top-right corner and select **Install from Disk**.
+4. Choose the `.zip` file you created.
+5. Once imported, open the BlenderRAG panel in the **right sidebar** of the 3D viewport (press `N` if it's hidden).
 
-### Step 2. Download Necessary Dependencies
+### Step 2 — Download necessary dependencies
 
-- Once the add-on is installed, open the BlenderRAG panel in the right sidebar. Click the **Install Dependencies** button to download the required packages. You can monitor the installation progress by opening the **Blender Python Console** (Window > Toggle System Console on Windows, or **Scripting** workspace > Python Console).
-- **Important:** you MUST restart Blender once the installation is complete for the dependencies to be properly loaded.
+1. Open the **BlenderRAG** panel in the sidebar.
+2. Click **Install Dependencies** to download the required packages.
+3. Monitor progress in the **Blender Python Console**:
+   - **Windows:** *Window → Toggle System Console*
+   - **macOS / Linux:** *Scripting* workspace → *Python Console*
 
-### Step 3. Use the BlenderRAG Add-on
+> ⚠️ **Important:** You **must restart Blender** after installation completes for the dependencies to load correctly.
 
-- Navigate to the **Settings** section in the UI to configure:
-    - LLM Selection: choose the preferred language model.
-    - API Key: for closed models, provide the API key in the corresponding field.
-    - Retrieval Count: set the number of similar examples to retrieve from the vector database.
+### Step 3 — Configure the add-on
 
-- Enter your desired object description in the text box (e.g., "a modern wooden chair with armrests").
+In the **Settings** section of the BlenderRAG panel, configure:
 
-When you send your first prompt, the system automatically initializes the Qdrant vector database and indexes the custom dataset. This is a one-time process.
+| Setting | Description |
+|---|---|
+| **LLM Selection** | Choose your preferred language model (open or closed source). |
+| **API Key** | Required for closed models. Paste it into the corresponding field. |
+| **Retrieval Count** (`k`) | Number of similar examples to retrieve from the vector database. |
 
-After the first initialization, subsequent prompts will:
+---
 
-1. Embed your text description using Nomic-AI.
-2. Retrieve the k most semantically similar examples from the vector database.
-3. Send the retrieved context (text + code) along with your prompt to the selected LLM.
-4. Automatically execute the generated Python code in Blender.
-5. Display the resulting 3D object in your current scene.
+## 🎨 Usage
 
-The entire process is seamless — once the LLM generates the code, execution happens automatically without manual intervention.
+1. Open the BlenderRAG panel in the 3D viewport sidebar.
+2. Enter a natural language description in the prompt box, for example:
+   > `a modern wooden chair with armrests`
+3. Click **Generate**.
+
+> 📝 **First-run note:** On your first prompt, the system automatically initializes the Qdrant vector database and indexes the dataset. This is a **one-time process** and may take a few minutes.
+
+After initialization, every prompt follows this pipeline:
+
+1. **Embed** your description using Nomic-AI.
+2. **Retrieve** the *k* most semantically similar examples from the vector DB.
+3. **Prompt** the selected LLM with your description plus the retrieved context (text + code).
+4. **Execute** the generated Python code in Blender.
+5. **Display** the resulting 3D object in your active scene.
+
+The entire flow is seamless — once the LLM responds, execution happens automatically.
+
+> 💡 **Tip:** Increase the **Retrieval Count** for more contextually grounded outputs on complex objects. Decrease it for faster, more open-ended generations.
+
+---
+
+## 🛠️ Troubleshooting
+
+<details>
+<summary><strong>The add-on doesn't appear after installation</strong></summary>
+
+Make sure it's enabled: **Edit → Preferences → Add-ons**, search for "BlenderRAG", and tick the checkbox.
+</details>
+
+<details>
+<summary><strong>Dependencies fail to install</strong></summary>
+
+Check that Blender has internet access and that you've launched Blender with sufficient permissions. On Windows, try running Blender as administrator. Then click **Install Dependencies** again.
+</details>
+
+<details>
+<summary><strong>"Module not found" errors after installing dependencies</strong></summary>
+
+You probably skipped the Blender restart. Close Blender completely and reopen it.
+</details>
+
+<details>
+<summary><strong>The first prompt is very slow</strong></summary>
+
+Expected — the vector database is being built and indexed. Subsequent prompts will be much faster.
+</details>
+
+<details>
+<summary><strong>Generated code fails to execute</strong></summary>
+
+Check the Blender System Console for the error. Common causes are unsupported Blender versions or API key issues. Try regenerating with a higher retrieval count for more grounded output.
+</details>
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Whether it's bug reports, dataset additions, or new LLM integrations, please open an issue or pull request. For substantial changes, open an issue first to discuss the proposal.
+
+---
+
+## 📚 Citation
+
+If you use BlenderRAG in your research, please cite:
+
+```bibtex
+@misc{rondelli2026blenderraghighfidelity3dobject,
+      title={BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis},
+      author={Massimo Rondelli and Francesco Pivi and Maurizio Gabbrielli},
+      year={2026},
+      eprint={2605.00632},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.00632},
+}
+```
+
+---
+
+## 📄 License
+
+*Add your license information here (e.g., MIT, Apache 2.0).*
+
+---
+
+<p align="center">
+  Made with 🧡 for the Blender + ML community.
+</p>
