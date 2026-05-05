@@ -2,7 +2,7 @@
 
 BlenderRAG is a retrieval-augmented generation system for creating high-fidelity 3D objects in Blender from natural language descriptions, implemented as a native Blender Add-on.
 
-**Dataset Availability:** The dataset will be publicly released upon acceptance of our accompanying paper, currently under review. ⭐ Star this repo to be notified when it becomes available.
+The dataset can be found on HuggingFace: [BlenderRAG dataset](https://huggingface.co/datasets/MaxRondelli/BlenderRAG)
 
 ## Setup
 
