@@ -12,21 +12,6 @@
 
 ---
 
-## 📑 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [How It Works](#-how-it-works)
-- [Setup](#-setup)
-- [Blender Add-on Installation](#-blender-add-on-installation)
-- [Usage](#-usage)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [Citation](#-citation)
-- [License](#-license)
-
----
-
 ## 🔭 Overview
 
 Generating 3D content from text remains challenging: end-to-end mesh generators often produce low-fidelity results, while code-driven approaches struggle with the breadth of Blender's API. **BlenderRAG** bridges this gap by retrieving semantically similar (description, code) pairs from a curated dataset and conditioning an LLM on them to produce executable Blender Python code.
@@ -48,7 +33,7 @@ The result: cleaner geometry, more controllable outputs, and a workflow that liv
 
 ## ⚙️ How It Works
 
-
+![alt text](assets/blender-rag-pipeline.jpg)
 
 On first run, the add-on initializes a local Qdrant database and indexes the BlenderRAG dataset. Each subsequent prompt retrieves the top-*k* most similar examples and conditions the LLM on them to synthesize Blender Python code, which is then executed directly in your scene.
 
@@ -119,7 +104,7 @@ In the **Settings** section of the BlenderRAG panel, configure:
    > `a modern wooden chair with armrests`
 3. Click **Generate**.
 
-> 📝 **First-run note:** On your first prompt, the system automatically initializes the Qdrant vector database and indexes the dataset. This is a **one-time process** and may take a few minutes.
+   > 📝 **First-run note:** On your first prompt, the system automatically initializes the Qdrant vector database and indexes the dataset. This is a **one-time process** and may take a few minutes.
 
 After initialization, every prompt follows this pipeline:
 
@@ -169,15 +154,9 @@ Check the Blender System Console for the error. Common causes are unsupported Bl
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Whether it's bug reports, dataset additions, or new LLM integrations, please open an issue or pull request. For substantial changes, open an issue first to discuss the proposal.
-
----
-
 ## 📚 Citation
 
-If you use BlenderRAG in your research, please cite:
+If you use BlenderRAG in your research, please cite us:
 
 ```bibtex
 @misc{rondelli2026blenderraghighfidelity3dobject,
@@ -190,15 +169,3 @@ If you use BlenderRAG in your research, please cite:
       url={https://arxiv.org/abs/2605.00632},
 }
 ```
-
----
-
-## 📄 License
-
-*Add your license information here (e.g., MIT, Apache 2.0).*
-
----
-
-<p align="center">
-  Made with 🧡 for the Blender + ML community.
-</p>
