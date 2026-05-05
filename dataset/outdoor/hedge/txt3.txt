@@ -1,3 +1,0 @@
-AUTUMN HEDGE
-
-This script generates an autumn hedge displaying the full spectrum of fall colors with leaves in shades of orange, red-orange, deep red, yellow, gold, and brown randomly distributed throughout the canopy to create a natural seasonal transition effect. The scene includes fallen leaves scattered on the ground in various orientations and colors, enhancing the autumnal atmosphere and providing a complete seasonal representation of a deciduous hedge shedding its foliage.

@@ -1,1 +1,0 @@
-Create a shrub variation with thicker, more gnarled branches that curve more dramatically, reducing the number of main trunks from 3-4 to 2-3 but making them substantially thicker (0.06-0.08 base radius), and change the material to a lighter, more weathered bark color (0.45, 0.35, 0.25) with increased roughness to 0.95 for a more aged appearance.

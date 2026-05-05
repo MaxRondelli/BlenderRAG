@@ -1,1 +1,0 @@
-Create a shrub variation with thicker, more robust branches (increase base thickness by 40-50%), darker bark material using deep brown colors (0.15, 0.1, 0.05), and replace the spherical leaves with elongated leaf shapes by scaling them to (0.4, 1.2, 0.6) to create an oval appearance.

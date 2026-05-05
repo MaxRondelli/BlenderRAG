@@ -1,1 +1,0 @@
-A darker, more autumn-themed bush variation with burnt orange and deep red leaf colors, using a slightly smaller base sphere (radius 0.8) with more pronounced random vertex displacement (0.7-1.3 range), and larger leaf instances (size 0.15) to create a fuller, more seasonal appearance.

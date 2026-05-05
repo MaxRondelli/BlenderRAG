@@ -1,3 +1,0 @@
-COCONUT PALM TREE
-
-This script creates a realistic coconut palm with a curved trunk composed of textured ring segments that bend gracefully, topped with a crown of coconuts hanging beneath arching palm fronds. The fronds are constructed with a central stem (rachis) that curves downward, with individual leaflets (pinnae) arranged alternately along each side, creating the characteristic feathered appearance of tropical palm leaves.

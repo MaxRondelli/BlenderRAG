@@ -1,1 +1,0 @@
-Tall mountain with height-based gradient transitioning from brown rock at base to white snow at peak. Natural alpine appearance reaching ~9 units with realistic snow line at 60% height.

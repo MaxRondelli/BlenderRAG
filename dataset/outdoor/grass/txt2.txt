@@ -1,1 +1,0 @@
-Create autumn grass with warmer color palette using golden-brown base tones (0.4, 0.3, 0.1) transitioning to pale yellow-green tips (0.6, 0.5, 0.2), increase grass blade thickness by scaling width to 0.035, and add more pronounced curvature by enhancing the tip bending with stronger x-offset (0.08 * vert.co.z) for a more drooped, seasonal appearance.

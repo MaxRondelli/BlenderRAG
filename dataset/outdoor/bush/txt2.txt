@@ -1,1 +1,0 @@
-Create an autumn bush variation by changing the leaf color to warm orange-red tones (Base Color: 0.8, 0.3, 0.1) and reducing the leaf density to 3500 to simulate seasonal leaf loss. Increase the base sphere's randomization range to (0.75, 1.25) for a more weathered, irregular shape.

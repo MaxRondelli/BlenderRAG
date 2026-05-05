@@ -1,1 +1,0 @@
-Create a weathered limestone rock variation with a more angular, fractured appearance by increasing the edge split angle to create sharper facets, changing the base colors to pale cream and warm white tones instead of grey-beige, and reducing the displacement strength values to create a more compact, dense rock form with subtle surface variations.

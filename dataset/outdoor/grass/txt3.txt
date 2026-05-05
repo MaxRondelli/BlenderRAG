@@ -1,1 +1,0 @@
-Create autumn grass with warmer color tones - change the grass blade material gradient from green to golden-brown and amber colors (browns, oranges, yellows), adjust the ground material to a darker earthy brown, and make the grass blades slightly thicker by increasing the scale width from 0.02 to 0.035.

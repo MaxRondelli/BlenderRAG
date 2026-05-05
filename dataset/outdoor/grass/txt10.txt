@@ -1,1 +1,0 @@
-Create autumn grass with warmer color tones by changing the grass material gradient to rusty oranges and golden browns, reduce the particle count to 25000 for a more sparse autumn look, and increase the ground roughness to 0.8 with a darker brown base color to simulate dried soil.

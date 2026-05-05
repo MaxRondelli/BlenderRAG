@@ -1,1 +1,0 @@
-Create a more delicate shrub variation with thinner, more graceful branches (reduce base thickness to 0.02-0.03), increase branching density by adding 1-2 more subdivision levels with smaller secondary branches, and change the bark material to a lighter reddish-brown color (0.4, 0.25, 0.18) with reduced roughness of 0.6 for a smoother, younger wood appearance.

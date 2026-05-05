@@ -1,1 +1,0 @@
-Gentle undulating terrain created with overlapping sine waves and green grassy material. Smooth rolling effect with heights of 3-4 units, perfect for countryside scenes.

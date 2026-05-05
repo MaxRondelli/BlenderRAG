@@ -1,1 +1,0 @@
-Create a sleek sports car variation by making the car body longer and lower (scale y-axis to 1.2, z-axis to 0.25), changing the body color to a deep metallic blue with high gloss (roughness 0.02), and making the cabin more angular by reducing its height scale to 0.35 while extending its length scale to 1.5.

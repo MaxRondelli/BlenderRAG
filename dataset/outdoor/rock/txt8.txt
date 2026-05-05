@@ -1,1 +1,0 @@
-Create a darker, more weathered rock variation with a flatter, more angular shape (resize to 1.8, 1.2, 0.6), deeper brown-gray base colors (0.25, 0.22, 0.18 to 0.35, 0.30, 0.25), and increased displacement strength to 0.8 for the primary texture to create more pronounced jagged edges and crevices.

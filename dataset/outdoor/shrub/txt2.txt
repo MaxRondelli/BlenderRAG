@@ -1,1 +1,0 @@
-Create a more twisted and gnarled shrub variation by increasing the branch deviation angles to 25-35 degrees and adding more dramatic curvature, while changing the material to a lighter bark color with values (0.42, 0.35, 0.25, 1) and reducing roughness to 0.65 for a smoother, younger wood appearance.

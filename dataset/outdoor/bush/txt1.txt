@@ -1,1 +1,0 @@
-Create an autumn bush variation by changing the leaf color to warm orange-red tones (Base Color: 0.8, 0.3, 0.1), increasing the leaf density to 8000 for a fuller appearance, and making the base sphere slightly more compact by scaling vertices with a tighter random range of 0.9-1.1 instead of 0.85-1.15.

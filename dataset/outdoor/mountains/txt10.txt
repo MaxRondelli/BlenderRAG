@@ -1,1 +1,0 @@
-Complex eroded terrain with visible red, orange, and tan sediment layers using wave textures. Multiple small peaks and valleys with heavy Voronoi displacement, heights 0-5 units with erosion plateaus.

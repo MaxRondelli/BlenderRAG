@@ -1,3 +1,0 @@
-WILD BRAMBLE HEDGE
-
-This script creates an unruly wild bramble hedge with twisted irregular branches covered in sharp thorns, featuring dark green leaves in irregular clusters and dark purple-black berry clusters scattered throughout the canopy. The branches are rendered with a sinusoidal twisting pattern to simulate natural bramble growth, complete with cone-shaped thorns protruding from the stems at various angles, and berry clusters composed of multiple small spheres to represent blackberries or similar wild fruits.

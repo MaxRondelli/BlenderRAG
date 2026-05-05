@@ -1,1 +1,0 @@
-Create a more delicate shrub variation with thinner, more graceful branches (reduce base thickness to 0.02-0.03), smaller oval-shaped leaves using scaled UV spheres instead of icospheres, and a lighter color palette with golden-brown bark (0.45, 0.35, 0.22) and bright spring-green foliage (0.3, 0.7, 0.25).

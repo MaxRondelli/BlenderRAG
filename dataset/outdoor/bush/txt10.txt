@@ -1,1 +1,0 @@
-Create a darker, more autumn-themed bush by changing the leaf color to a warm reddish-brown (0.6, 0.3, 0.1) and increasing the material roughness to 0.85 for a more weathered appearance, while reducing the density of distributed points to 3500 to create a slightly sparser, more realistic foliage distribution.

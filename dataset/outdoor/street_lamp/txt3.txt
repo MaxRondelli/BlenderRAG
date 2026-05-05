@@ -1,1 +1,0 @@
-Create a Victorian-style street lamp variation with ornate cast iron detailing, changing the dark metal to a deep bronze finish with higher roughness (0.6), making the decorative rings and volutes more elaborate with additional smaller ornamental spirals, and replacing the smooth conical pole with a fluted cylindrical design featuring vertical ridges throughout its length.

@@ -1,1 +1,0 @@
-Create a sleek modern bench variation by changing the wood material to a dark walnut finish with higher metallic content (0.3 metallic, 0.4 roughness), making the metal components bright chrome finish (0.98 metallic, 0.1 roughness), and increasing the thickness of all seat slats and backrest components by 50% for a more substantial, contemporary appearance.
