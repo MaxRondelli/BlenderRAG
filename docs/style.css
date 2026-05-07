@@ -1,13 +1,13 @@
 :root {
-  --bg: #100608;
-  --bg-elev: #1a0a0d;
-  --bg-elev-2: #240e12;
-  --border: #3a1419;
-  --text: #ffffff;
-  --muted: #d8b3b8;
+  --bg: #fbf7f7;
+  --bg-elev: #ffffff;
+  --bg-elev-2: #f4eced;
+  --border: #ecd9dc;
+  --text: #1a0e10;
+  --muted: #6b545a;
   --accent: #e0223a;
-  --accent-2: #ff6b7a;
-  --code-bg: #15080a;
+  --accent-2: #b3122a;
+  --code-bg: #fff5f6;
   --max-w: 1200px;
 }
 
@@ -30,7 +30,7 @@ a:hover { text-decoration: underline; }
 .site-header {
   position: sticky; top: 0; z-index: 50;
   backdrop-filter: blur(10px);
-  background: rgba(11,13,18,0.85);
+  background: rgba(255,255,255,0.85);
   border-bottom: 1px solid var(--border);
 }
 .site-header .inner {
@@ -47,8 +47,8 @@ a:hover { text-decoration: underline; }
   padding: 80px 0 56px;
   text-align: center;
   background:
-    radial-gradient(700px 400px at 50% -100px, rgba(224,34,58,0.28), transparent 60%),
-    radial-gradient(900px 500px at 80% 20%, rgba(255,107,122,0.14), transparent 70%);
+    radial-gradient(700px 400px at 50% -100px, rgba(224,34,58,0.18), transparent 60%),
+    radial-gradient(900px 500px at 80% 20%, rgba(224,34,58,0.08), transparent 70%);
 }
 .hero h1 {
   font-size: clamp(36px, 5vw, 56px);
@@ -295,8 +295,8 @@ pre.bibtex {
   display: flex; align-items: center; justify-content: center;
   width: 100%; height: 100%; color: var(--muted);
   background:
-    radial-gradient(600px 300px at 50% 30%, rgba(224,34,58,0.20), transparent 60%),
-    var(--bg-elev);
+    radial-gradient(600px 300px at 50% 30%, rgba(224,34,58,0.10), transparent 60%),
+    var(--bg-elev-2);
   flex-direction: column; gap: 10px; padding: 24px; text-align: center;
 }
 .video-placeholder .vp-title { color: var(--text); font-weight: 600; }
