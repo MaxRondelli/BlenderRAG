@@ -217,15 +217,19 @@
     if (!top || !bot) return;
 
     // Show every category. Skip categories that have no generated meshes.
+    // Categories where the marquee's chosen variant is missing — pick a different idx for those.
+    const FORCE_IDX = { "outdoor/cactus": 1, "outdoor/hedge": 1, "outdoor/tree": 1 };
     const MISSING = new Set(["outdoor/grass"]); // categories where every variant is missing
     const picks = [];
     DATA.indoor.forEach((c, i) => {
       if (MISSING.has(`indoor/${c}`)) return;
-      picks.push({ scene: "indoor", category: c, idx: (i % 10) + 1 });
+      const idx = FORCE_IDX[`indoor/${c}`] ?? (i % 10) + 1;
+      picks.push({ scene: "indoor", category: c, idx });
     });
     DATA.outdoor.forEach((c, i) => {
       if (MISSING.has(`outdoor/${c}`)) return;
-      picks.push({ scene: "outdoor", category: c, idx: (i % 10) + 1 });
+      const idx = FORCE_IDX[`outdoor/${c}`] ?? (i % 10) + 1;
+      picks.push({ scene: "outdoor", category: c, idx });
     });
 
     // Interleave so indoor & outdoor are mixed across rows
