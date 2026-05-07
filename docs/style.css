@@ -158,7 +158,10 @@ pre.bibtex {
   aspect-ratio: 1 / 1; background: #fff;
   display: flex; align-items: center; justify-content: center;
 }
-.variant img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.variant img, .variant model-viewer {
+  width: 100%; height: 100%; object-fit: cover; display: block; background: #fff;
+  --poster-color: transparent;
+}
 .variant .meta { padding: 10px 12px; font-size: 13px; color: var(--muted); display: flex; justify-content: space-between; }
 .variant .meta strong { color: var(--text); }
 
@@ -176,25 +179,16 @@ pre.bibtex {
 }
 .modal .left { padding: 20px; border-right: 1px solid var(--border); overflow: auto; max-height: 92vh; }
 .modal .right { padding: 20px; overflow: auto; max-height: 92vh; }
-.modal .img-zoom {
+.modal .mesh-zoom {
   width: 100%; aspect-ratio: 1/1; background: #fff;
-  border-radius: 10px; overflow: hidden; margin-bottom: 14px;
-  perspective: 1200px;
+  border-radius: 10px; overflow: hidden;
 }
-.modal .img-zoom img {
-  width: 100%; height: 100%; object-fit: contain;
-  transform-style: preserve-3d;
-  transition: transform .25s ease;
+.modal .mesh-zoom model-viewer { width: 100%; height: 100%; --poster-color: transparent; }
+.modal .img-still {
+  width: 100%; aspect-ratio: 1/1; background: #fff;
+  border-radius: 10px; overflow: hidden;
 }
-.modal .img-zoom.spinning img {
-  animation: spinY 6s linear infinite;
-}
-@keyframes spinY {
-  from { transform: rotateY(0deg); }
-  to   { transform: rotateY(360deg); }
-}
-.modal .img-zoom.drag img { cursor: grab; }
-.modal .img-zoom.drag img:active { cursor: grabbing; }
+.modal .img-still img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .modal .title { font-size: 18px; font-weight: 700; margin: 0 0 6px; text-transform: capitalize; }
 .modal .desc { color: var(--text); margin: 0 0 14px; }
 .modal .row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
@@ -250,16 +244,9 @@ pre.bibtex {
   transition: border-color .2s, transform .2s;
 }
 .m-card:hover { border-color: var(--accent); transform: translateY(-3px); }
-.m-card img {
-  width: 100%; height: 100%; object-fit: cover;
-  transform-style: preserve-3d;
-  animation: spinY-slow 14s linear infinite;
-}
-.m-card:nth-child(2n) img  { animation-duration: 18s; animation-direction: reverse; }
-.m-card:nth-child(3n) img  { animation-duration: 22s; }
-@keyframes spinY-slow {
-  from { transform: rotateY(0deg); }
-  to   { transform: rotateY(360deg); }
+.m-card model-viewer, .m-card img {
+  width: 100%; height: 100%; display: block; background: #fff;
+  --poster-color: transparent;
 }
 .m-card .label {
   position: absolute; left: 8px; bottom: 8px;

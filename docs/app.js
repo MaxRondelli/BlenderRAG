@@ -10,8 +10,14 @@
 
   const modal = document.getElementById("modal");
   const modalImg = document.getElementById("modalImg");
+  const modalMv = document.getElementById("modalMv");
   const modalImgWrap = document.getElementById("modalImgWrap");
   const modalSpin = document.getElementById("modalSpin");
+
+  // Local mesh root (relative to site)
+  const MESHES = "meshes";
+  const meshUrl = (scene, cat, i) => `${MESHES}/${scene}/${cat}/${i}.glb`;
+  const imageUrl = (scene, cat, i) => `${HF}/${scene}/${cat}/image${i}.png`;
   const modalTitle = document.getElementById("modalTitle");
   const modalDesc = document.getElementById("modalDesc");
   const modalCode = document.getElementById("modalCode");
@@ -83,11 +89,13 @@
     for (let i = 1; i <= N; i++) {
       const v = document.createElement("div");
       v.className = "variant";
-      const imgUrl = `${HF}/${scene}/${category}/image${i}.png`;
-      v.innerHTML = `
-        <div class="img-wrap"><img loading="lazy" src="${imgUrl}" alt="${category} ${i}" /></div>
-        <div class="meta"><strong>Variant ${i}</strong><span>${scene}</span></div>
-      `;
+      const wrap = document.createElement("div");
+      wrap.className = "img-wrap";
+      wrap.appendChild(make3DCard(scene, category, i, "25deg"));
+      const meta = document.createElement("div");
+      meta.className = "meta";
+      meta.innerHTML = `<strong>Variant ${i}</strong><span>${scene}</span>`;
+      v.appendChild(wrap); v.appendChild(meta);
       v.addEventListener("click", () => openVariant(scene, category, i));
       vg.appendChild(v);
     }
@@ -100,6 +108,7 @@
     const txtUrl = `${HF}/${scene}/${category}/txt${idx}.txt`;
 
     modalImg.src = imgUrl;
+    modalMv.setAttribute("src", meshUrl(scene, category, idx));
     modalTitle.textContent = `${titleCase(category)} — Variant ${idx}`;
     modalDesc.textContent = "Loading description…";
     modalCode.textContent = "Loading code…";
@@ -109,10 +118,8 @@
     modalCodeDl.href = codeUrl;
     modal.classList.add("open");
     document.body.style.overflow = "hidden";
-    // restart rotation each time a variant is opened
-    modalImgWrap.classList.remove("drag");
-    modalImgWrap.classList.add("spinning");
-    modalImg.style.transform = "";
+    // ensure rotation is on when variant is opened
+    modalMv.setAttribute("auto-rotate", "");
     modalSpin.textContent = "⏸ Pause rotation";
 
     // Fetch description and code in parallel
@@ -156,40 +163,15 @@
   // Spin toggle + drag-to-rotate
   let dragAngle = 0;
   modalSpin.addEventListener("click", () => {
-    const spinning = modalImgWrap.classList.toggle("spinning");
-    if (spinning) {
-      modalImgWrap.classList.remove("drag");
-      modalImg.style.transform = "";
-      modalSpin.textContent = "⏸ Pause rotation";
-    } else {
-      modalImgWrap.classList.add("drag");
-      modalImg.style.transform = `rotateY(${dragAngle}deg)`;
+    const isOn = modalMv.hasAttribute("auto-rotate");
+    if (isOn) {
+      modalMv.removeAttribute("auto-rotate");
       modalSpin.textContent = "▶ Resume rotation";
+    } else {
+      modalMv.setAttribute("auto-rotate", "");
+      modalSpin.textContent = "⏸ Pause rotation";
     }
   });
-
-  // Drag horizontally to rotate when paused
-  let dragging = false; let startX = 0; let startAngle = 0;
-  const onDown = (e) => {
-    if (!modalImgWrap.classList.contains("drag")) return;
-    dragging = true;
-    startX = (e.touches ? e.touches[0].clientX : e.clientX);
-    startAngle = dragAngle;
-    e.preventDefault();
-  };
-  const onMove = (e) => {
-    if (!dragging) return;
-    const x = (e.touches ? e.touches[0].clientX : e.clientX);
-    dragAngle = startAngle + (x - startX) * 0.6;
-    modalImg.style.transform = `rotateY(${dragAngle}deg)`;
-  };
-  const onUp = () => { dragging = false; };
-  modalImg.addEventListener("mousedown", onDown);
-  modalImg.addEventListener("touchstart", onDown, { passive: false });
-  window.addEventListener("mousemove", onMove);
-  window.addEventListener("touchmove", onMove, { passive: false });
-  window.addEventListener("mouseup", onUp);
-  window.addEventListener("touchend", onUp);
 
   modalCopy.addEventListener("click", async () => {
     try {
@@ -201,6 +183,32 @@
       modalCopy.textContent = "Copy failed";
     }
   });
+
+  // ---- 3D card factory with image fallback if mesh missing ----
+  const make3DCard = (scene, category, idx, rps = "20deg") => {
+    const mv = document.createElement("model-viewer");
+    mv.setAttribute("src", meshUrl(scene, category, idx));
+    mv.setAttribute("alt", `${category} ${idx}`);
+    mv.setAttribute("auto-rotate", "");
+    mv.setAttribute("auto-rotate-delay", "0");
+    mv.setAttribute("rotation-per-second", rps);
+    mv.setAttribute("interaction-prompt", "none");
+    mv.setAttribute("disable-zoom", "");
+    mv.setAttribute("disable-pan", "");
+    mv.setAttribute("disable-tap", "");
+    mv.setAttribute("shadow-intensity", "0.3");
+    mv.setAttribute("environment-image", "neutral");
+    mv.setAttribute("reveal", "auto");
+    mv.setAttribute("loading", "lazy");
+    mv.addEventListener("error", () => {
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.alt = `${category} ${idx}`;
+      img.src = imageUrl(scene, category, idx);
+      mv.replaceWith(img);
+    });
+    return mv;
+  };
 
   // ---- marquee (infinite rotating two-row gallery) ----
   const buildMarquee = () => {
@@ -220,14 +228,14 @@
     const rowB = picks.slice(half).concat(picks.slice(0, 2)); // pad a bit
 
     const card = ({ scene, category, idx }) => {
-      const url = `${HF}/${scene}/${category}/image${idx}.png`;
       const el = document.createElement("div");
       el.className = "m-card";
       el.title = `${titleCase(category)} — open variant`;
-      el.innerHTML = `
-        <img src="${url}" loading="lazy" alt="${category}" />
-        <span class="label">${titleCase(category)}</span>
-      `;
+      el.appendChild(make3DCard(scene, category, idx, "20deg"));
+      const label = document.createElement("span");
+      label.className = "label";
+      label.textContent = titleCase(category);
+      el.appendChild(label);
       el.addEventListener("click", () => openVariant(scene, category, idx));
       return el;
     };
