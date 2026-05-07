@@ -281,8 +281,26 @@
     </div>
   `;
 
+  // ---- live GitHub star count ----
+  const fetchStars = async () => {
+    const el = document.getElementById("ghStars");
+    if (!el) return;
+    try {
+      const r = await fetch("https://api.github.com/repos/MaxRondelli/BlenderRAG", {
+        headers: { Accept: "application/vnd.github+json" },
+      });
+      if (!r.ok) throw new Error(r.status);
+      const d = await r.json();
+      const n = d.stargazers_count ?? 0;
+      el.textContent = n >= 1000 ? (n / 1000).toFixed(1) + "k" : String(n);
+    } catch {
+      el.textContent = "—";
+    }
+  };
+
   // initial render
   renderSample();
   buildMarquee();
   tryLoadVideo();
+  fetchStars();
 })();
