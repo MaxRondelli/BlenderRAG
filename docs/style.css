@@ -225,9 +225,9 @@ pre.bibtex {
 .marquee-track {
   display: flex; gap: 18px;
   width: max-content;
-  animation: scroll-left 80s linear infinite;
+  animation: scroll-left 140s linear infinite;
 }
-.marquee-row.reverse .marquee-track { animation-name: scroll-right; animation-duration: 90s; }
+.marquee-row.reverse .marquee-track { animation-name: scroll-right; animation-duration: 160s; }
 .marquee-row:hover .marquee-track { animation-play-state: paused; }
 @keyframes scroll-left  { from { transform: translateX(0); }       to { transform: translateX(-50%); } }
 @keyframes scroll-right { from { transform: translateX(-50%); }    to { transform: translateX(0); } }

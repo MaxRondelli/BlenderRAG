@@ -216,16 +216,22 @@
     const bot = document.getElementById("marqueeBot");
     if (!top || !bot) return;
 
-    // Curated picks across categories for visual variety
+    // Show every category. Skip categories that have no generated meshes.
+    const MISSING = new Set(["outdoor/grass"]); // categories where every variant is missing
     const picks = [];
-    const indoorPicks = ["chair", "sofa", "lamp", "bed", "table", "armchair", "wardrobe", "plant", "frame", "rug", "fridge", "candle"];
-    const outdoorPicks = ["tree", "fountain", "car", "bench", "gazebo", "cactus", "street_lamp", "stoplight", "rock", "humanoid_statue", "skyscrapers", "bell_tower"];
-    indoorPicks.forEach((c, i) => picks.push({ scene: "indoor", category: c, idx: (i % 10) + 1 }));
-    outdoorPicks.forEach((c, i) => picks.push({ scene: "outdoor", category: c, idx: (i % 10) + 1 }));
+    DATA.indoor.forEach((c, i) => {
+      if (MISSING.has(`indoor/${c}`)) return;
+      picks.push({ scene: "indoor", category: c, idx: (i % 10) + 1 });
+    });
+    DATA.outdoor.forEach((c, i) => {
+      if (MISSING.has(`outdoor/${c}`)) return;
+      picks.push({ scene: "outdoor", category: c, idx: (i % 10) + 1 });
+    });
 
-    const half = Math.ceil(picks.length / 2);
-    const rowA = picks.slice(0, half);
-    const rowB = picks.slice(half).concat(picks.slice(0, 2)); // pad a bit
+    // Interleave so indoor & outdoor are mixed across rows
+    const shuffled = picks.slice().sort((a, b) => (a.category + a.scene).localeCompare(b.category + b.scene));
+    const rowA = shuffled.filter((_, i) => i % 2 === 0);
+    const rowB = shuffled.filter((_, i) => i % 2 === 1);
 
     const card = ({ scene, category, idx }) => {
       const el = document.createElement("div");
