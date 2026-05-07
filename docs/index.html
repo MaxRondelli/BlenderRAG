@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BlenderRAG — High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis</title>
+<meta name="description" content="BlenderRAG: a retrieval-augmented generation system that turns natural language descriptions into high-fidelity 3D objects in Blender. Browse the dataset and read the paper." />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/atom-one-dark.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <div class="brand"><span class="dot"></span> BlenderRAG</div>
+    <nav class="nav">
+      <a href="#paper">Paper</a>
+      <a href="#explorer">Demo</a>
+      <a href="#cite">Cite</a>
+      <a href="https://github.com/MaxRondelli/BlenderRAG" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="border-top:none;">
+  <div class="container">
+    <h1>High-Fidelity 3D Object Generation<br/>via <span class="grad">Retrieval-Augmented Code Synthesis</span></h1>
+    <p class="lead">
+      BlenderRAG turns natural language descriptions into high-fidelity 3D objects in Blender by
+      retrieving semantically similar (description, code) pairs from a curated dataset and
+      conditioning an LLM on them to synthesize executable Python.
+    </p>
+    <div class="badges">
+      <a class="badge primary" href="https://arxiv.org/abs/2605.00632" target="_blank" rel="noopener">📄 Read the Paper</a>
+      <a class="badge" href="https://huggingface.co/datasets/MaxRondelli/BlenderRAG" target="_blank" rel="noopener">🤗 Dataset</a>
+      <a class="badge" href="https://huggingface.co/papers/2605.00632" target="_blank" rel="noopener">📰 HF Paper Page</a>
+      <a class="badge" href="https://github.com/MaxRondelli/BlenderRAG" target="_blank" rel="noopener">⭐ GitHub</a>
+      <a class="badge" href="#explorer">🧭 Explore the Dataset</a>
+    </div>
+  </div>
+</section>
+
+<section id="paper">
+  <div class="container">
+    <h2>The Paper</h2>
+    <p class="sub">An overview of the work, the authors, and how to access it.</p>
+
+    <div class="paper-card">
+      <div class="meta">
+        <span class="tag">arXiv:2605.00632</span>
+        <span class="tag">cs.CV</span>
+        <span class="tag">2026</span>
+      </div>
+      <h3>BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis</h3>
+      <div class="authors">Massimo Rondelli · Francesco Pivi · Maurizio Gabbrielli</div>
+      <p>
+        Generating 3D content from text remains challenging: end-to-end mesh generators often
+        produce low-fidelity results, while code-driven approaches struggle with the breadth of
+        Blender's API. <strong>BlenderRAG</strong> bridges this gap by retrieving semantically
+        similar (description, code) pairs from a curated dataset of 500 objects and conditioning
+        a large language model on them to produce executable Blender Python code. The result:
+        cleaner geometry, more controllable outputs, and a workflow that lives directly inside
+        Blender as a native add-on.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="https://arxiv.org/abs/2605.00632" target="_blank" rel="noopener">Open on arXiv ↗</a>
+        <a class="btn" href="https://arxiv.org/pdf/2605.00632" target="_blank" rel="noopener">Download PDF</a>
+        <a class="btn" href="https://huggingface.co/papers/2605.00632" target="_blank" rel="noopener">Discuss on Hugging Face</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="explorer">
+  <div class="container">
+    <h2>Explore the Dataset</h2>
+    <p class="sub">
+      500 objects · 50 categories · 25 indoor + 25 outdoor · 10 variants each.
+      Each variant ships with a rendered preview, a natural-language description, and the
+      Blender Python script that generates the mesh. Pick a category to dive in.
+    </p>
+
+    <div class="controls">
+      <div class="group" id="sceneFilters">
+        <span class="chip active" data-scene="all">All</span>
+        <span class="chip" data-scene="indoor">Indoor</span>
+        <span class="chip" data-scene="outdoor">Outdoor</span>
+      </div>
+      <input type="search" id="searchInput" placeholder="Search categories…" />
+    </div>
+
+    <div id="explorerView">
+      <div class="cat-grid" id="catGrid"></div>
+    </div>
+  </div>
+</section>
+
+<section id="cite">
+  <div class="container">
+    <h2>Cite</h2>
+    <p class="sub">If BlenderRAG is useful in your research, please cite:</p>
+<pre class="bibtex">@misc{rondelli2026blenderraghighfidelity3dobject,
+  title={BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis},
+  author={Massimo Rondelli and Francesco Pivi and Maurizio Gabbrielli},
+  year={2026},
+  eprint={2605.00632},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2605.00632},
+}</pre>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    Built for the BlenderRAG project · Hosted on GitHub Pages · Assets streamed from Hugging Face.
+  </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal-backdrop" id="modal" role="dialog" aria-modal="true">
+  <div class="modal" id="modalBox">
+    <button class="close-x" id="modalClose" aria-label="Close">×</button>
+    <div class="left">
+      <div class="img-zoom"><img id="modalImg" alt="Rendered preview" /></div>
+      <h3 class="title" id="modalTitle"></h3>
+      <p class="desc" id="modalDesc"></p>
+      <div class="row">
+        <a class="btn" id="modalImgDl" target="_blank" rel="noopener">Download image</a>
+        <a class="btn" id="modalCodeDl" target="_blank" rel="noopener">Download .py</a>
+        <button class="btn primary" id="modalCopy">Copy code</button>
+      </div>
+    </div>
+    <div class="right">
+      <h4>Blender Python — generates the mesh</h4>
+      <pre><code class="language-python" id="modalCode">Loading…</code></pre>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -5,10 +5,29 @@
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2605.00632)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow.svg)](https://huggingface.co/datasets/MaxRondelli/BlenderRAG)
 [![HF Page](https://img.shields.io/badge/HF-Page-blue.svg)](https://huggingface.co/papers/2605.00632)
+[![Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-2ea44f.svg)](https://maxrondelli.github.io/BlenderRAG/)
 
 **BlenderRAG** is a retrieval-augmented generation system that turns natural language descriptions into high-fidelity 3D objects in Blender. Distributed as a native Blender Add-on, it combines semantic retrieval over a curated code dataset with LLM-driven Python synthesis — so you can describe an object and watch it appear in your scene.
 
 > 💬 *"a modern wooden chair with armrests"* → 🪑 *generated mesh in your viewport*
+
+---
+
+## 🎬 Demo
+
+🌐 **Live site:** **[maxrondelli.github.io/BlenderRAG](https://maxrondelli.github.io/BlenderRAG/)**
+
+The companion website lets you:
+
+- 📄 Read the paper and grab the BibTeX citation in one click.
+- 🧭 **Browse the dataset** — 50 categories (25 indoor + 25 outdoor), 10 variants each.
+- 🖼️ **Inspect each generated mesh** — high-resolution rendered preview, natural-language description, and the full Blender Python script that produces it.
+- 📋 **Copy or download** the generating code with a single click and run it directly in Blender to reproduce the mesh.
+- 🔍 Filter by scene (Indoor / Outdoor) and search categories by name.
+
+The site is a static page hosted on **GitHub Pages** (sources live in [`/docs`](./docs)) and streams images, code, and descriptions live from the [Hugging Face dataset](https://huggingface.co/datasets/MaxRondelli/BlenderRAG) — no separate backend required.
+
+> 🚀 **Enabling the demo (one-time):** in the repo settings go to **Settings → Pages → Build and deployment**, set **Source: Deploy from a branch**, **Branch: `main` / `/docs`**, and save. The site will be live at the URL above within a minute.
 
 ---
 
