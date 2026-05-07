@@ -216,7 +216,7 @@ more grounded scripts.
 | Author | Affiliation |
 |---|---|
 | **Massimo Rondelli** | Department of Computer Science and Engineering, University of Bologna |
-| **Francesco Pivi** | Department of Computer Science and Engineering, University of Bologna · University of Ferrara |
+| **Francesco Pivi** | Department of Computer Science and Engineering, University of Bologna · Ferrari S.p.A. |
 | **Maurizio Gabbrielli** | Department of Computer Science and Engineering, University of Bologna |
 
 ## Citation
