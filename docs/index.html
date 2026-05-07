@@ -123,10 +123,11 @@
   <div class="modal" id="modalBox">
     <button class="close-x" id="modalClose" aria-label="Close">×</button>
     <div class="left">
-      <div class="img-zoom"><img id="modalImg" alt="Rendered preview" /></div>
+      <div class="img-zoom spinning" id="modalImgWrap"><img id="modalImg" alt="Rendered preview" draggable="false" /></div>
       <h3 class="title" id="modalTitle"></h3>
       <p class="desc" id="modalDesc"></p>
       <div class="row">
+        <button class="btn" id="modalSpin">⏸ Pause rotation</button>
         <a class="btn" id="modalImgDl" target="_blank" rel="noopener">Download image</a>
         <a class="btn" id="modalCodeDl" target="_blank" rel="noopener">Download .py</a>
         <button class="btn primary" id="modalCopy">Copy code</button>

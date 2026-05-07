@@ -10,6 +10,8 @@
 
   const modal = document.getElementById("modal");
   const modalImg = document.getElementById("modalImg");
+  const modalImgWrap = document.getElementById("modalImgWrap");
+  const modalSpin = document.getElementById("modalSpin");
   const modalTitle = document.getElementById("modalTitle");
   const modalDesc = document.getElementById("modalDesc");
   const modalCode = document.getElementById("modalCode");
@@ -107,6 +109,11 @@
     modalCodeDl.href = codeUrl;
     modal.classList.add("open");
     document.body.style.overflow = "hidden";
+    // restart rotation each time a variant is opened
+    modalImgWrap.classList.remove("drag");
+    modalImgWrap.classList.add("spinning");
+    modalImg.style.transform = "";
+    modalSpin.textContent = "⏸ Pause rotation";
 
     // Fetch description and code in parallel
     try {
@@ -145,6 +152,44 @@
   modalClose.addEventListener("click", closeModal);
   modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+
+  // Spin toggle + drag-to-rotate
+  let dragAngle = 0;
+  modalSpin.addEventListener("click", () => {
+    const spinning = modalImgWrap.classList.toggle("spinning");
+    if (spinning) {
+      modalImgWrap.classList.remove("drag");
+      modalImg.style.transform = "";
+      modalSpin.textContent = "⏸ Pause rotation";
+    } else {
+      modalImgWrap.classList.add("drag");
+      modalImg.style.transform = `rotateY(${dragAngle}deg)`;
+      modalSpin.textContent = "▶ Resume rotation";
+    }
+  });
+
+  // Drag horizontally to rotate when paused
+  let dragging = false; let startX = 0; let startAngle = 0;
+  const onDown = (e) => {
+    if (!modalImgWrap.classList.contains("drag")) return;
+    dragging = true;
+    startX = (e.touches ? e.touches[0].clientX : e.clientX);
+    startAngle = dragAngle;
+    e.preventDefault();
+  };
+  const onMove = (e) => {
+    if (!dragging) return;
+    const x = (e.touches ? e.touches[0].clientX : e.clientX);
+    dragAngle = startAngle + (x - startX) * 0.6;
+    modalImg.style.transform = `rotateY(${dragAngle}deg)`;
+  };
+  const onUp = () => { dragging = false; };
+  modalImg.addEventListener("mousedown", onDown);
+  modalImg.addEventListener("touchstart", onDown, { passive: false });
+  window.addEventListener("mousemove", onMove);
+  window.addEventListener("touchmove", onMove, { passive: false });
+  window.addEventListener("mouseup", onUp);
+  window.addEventListener("touchend", onUp);
 
   modalCopy.addEventListener("click", async () => {
     try {
