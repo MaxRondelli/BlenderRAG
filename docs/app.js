@@ -3,10 +3,9 @@
   const DATA = window.DATASET;
   const N = window.VARIANTS_PER_CATEGORY;
 
-  const catGrid = document.getElementById("catGrid");
   const explorerView = document.getElementById("explorerView");
   const sceneFilters = document.getElementById("sceneFilters");
-  const searchInput = document.getElementById("searchInput");
+  const shuffleBtn = document.getElementById("shuffleBtn");
 
   const modal = document.getElementById("modal");
   const modalImg = document.getElementById("modalImg");
@@ -27,79 +26,74 @@
   const modalClose = document.getElementById("modalClose");
 
   let currentScene = "all";
-  let currentSearch = "";
-  let openCategory = null; // {scene, category}
+  const SAMPLE_SIZE = 24;
+
+  // Variants whose mesh failed to generate — exclude from explorer/marquee.
+  const BROKEN = new Set([
+    "outdoor/cactus/6", "outdoor/cactus/7",
+    "outdoor/hedge/2",
+    "outdoor/tree/3", "outdoor/tree/5",
+  ]);
+  const BROKEN_CATS = new Set(["outdoor/grass"]); // entirely missing
+
+  const isBroken = (scene, category, idx) =>
+    BROKEN_CATS.has(`${scene}/${category}`) || BROKEN.has(`${scene}/${category}/${idx}`);
 
   // ---- helpers ----
   const titleCase = (s) => s.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-  const allCategories = () => {
+  const allVariants = () => {
     const list = [];
-    for (const cat of DATA.indoor) list.push({ scene: "indoor", category: cat });
-    for (const cat of DATA.outdoor) list.push({ scene: "outdoor", category: cat });
+    for (const cat of DATA.indoor) for (let i = 1; i <= N; i++) {
+      if (!isBroken("indoor", cat, i)) list.push({ scene: "indoor", category: cat, idx: i });
+    }
+    for (const cat of DATA.outdoor) for (let i = 1; i <= N; i++) {
+      if (!isBroken("outdoor", cat, i)) list.push({ scene: "outdoor", category: cat, idx: i });
+    }
     return list;
   };
 
-  const filtered = () => {
-    return allCategories().filter((c) => {
-      if (currentScene !== "all" && c.scene !== currentScene) return false;
-      if (currentSearch && !c.category.toLowerCase().includes(currentSearch)) return false;
-      return true;
-    });
+  const sample = (n) => {
+    const pool = allVariants().filter((v) => currentScene === "all" || v.scene === currentScene);
+    // pick n distinct random items, avoiding duplicate categories where possible
+    const byCat = new Map();
+    for (const v of pool) {
+      if (!byCat.has(v.category)) byCat.set(v.category, []);
+      byCat.get(v.category).push(v);
+    }
+    const cats = [...byCat.keys()].sort(() => Math.random() - 0.5);
+    const picks = [];
+    for (const c of cats) {
+      const arr = byCat.get(c);
+      picks.push(arr[Math.floor(Math.random() * arr.length)]);
+      if (picks.length >= n) break;
+    }
+    // if we still need more (small filter), fill with random from pool
+    while (picks.length < n && pool.length > picks.length) {
+      const v = pool[Math.floor(Math.random() * pool.length)];
+      if (!picks.find((p) => p.scene === v.scene && p.category === v.category && p.idx === v.idx)) picks.push(v);
+    }
+    return picks;
   };
 
-  // ---- views ----
-  const renderCategoryGrid = () => {
-    openCategory = null;
-    const items = filtered();
+  const renderSample = () => {
     explorerView.innerHTML = "";
     const grid = document.createElement("div");
-    grid.className = "cat-grid";
-    if (items.length === 0) {
-      explorerView.innerHTML = '<p class="loading">No categories match your filters.</p>';
-      return;
-    }
-    items.forEach(({ scene, category }) => {
-      const el = document.createElement("div");
-      el.className = "cat";
-      el.innerHTML = `
-        <span class="name">${titleCase(category)}</span>
-        <span class="scene">${scene}</span>
-      `;
-      el.addEventListener("click", () => openCategoryView(scene, category));
-      grid.appendChild(el);
-    });
-    explorerView.appendChild(grid);
-  };
-
-  const openCategoryView = (scene, category) => {
-    openCategory = { scene, category };
-    explorerView.innerHTML = `
-      <div class="cat-header">
-        <div>
-          <button class="back-btn" id="backBtn">← All categories</button>
-          <h3 style="margin:6px 0 0; text-transform:capitalize;">${titleCase(category)} <span style="font-size:13px; color: var(--muted); font-weight:400; text-transform:uppercase; letter-spacing:0.08em; margin-left:8px;">${scene}</span></h3>
-        </div>
-        <span class="tag">${N} variants</span>
-      </div>
-      <div class="variant-grid" id="variantGrid"></div>
-    `;
-    document.getElementById("backBtn").addEventListener("click", renderCategoryGrid);
-    const vg = document.getElementById("variantGrid");
-    for (let i = 1; i <= N; i++) {
+    grid.className = "variant-grid";
+    sample(SAMPLE_SIZE).forEach(({ scene, category, idx }) => {
       const v = document.createElement("div");
       v.className = "variant";
       const wrap = document.createElement("div");
       wrap.className = "img-wrap";
-      wrap.appendChild(make3DCard(scene, category, i, "25deg"));
+      wrap.appendChild(make3DCard(scene, category, idx, "25deg"));
       const meta = document.createElement("div");
       meta.className = "meta";
-      meta.innerHTML = `<strong>Variant ${i}</strong><span>${scene}</span>`;
+      meta.innerHTML = `<strong style="text-transform:capitalize;">${titleCase(category)}</strong><span>${scene}</span>`;
       v.appendChild(wrap); v.appendChild(meta);
-      v.addEventListener("click", () => openVariant(scene, category, i));
-      vg.appendChild(v);
-    }
-    window.scrollTo({ top: document.getElementById("explorer").offsetTop - 60, behavior: "smooth" });
+      v.addEventListener("click", () => openVariant(scene, category, idx));
+      grid.appendChild(v);
+    });
+    explorerView.appendChild(grid);
   };
 
   const openVariant = async (scene, category, idx) => {
@@ -148,13 +142,10 @@
     document.querySelectorAll("#sceneFilters .chip").forEach((c) => c.classList.remove("active"));
     chip.classList.add("active");
     currentScene = chip.dataset.scene;
-    if (openCategory) renderCategoryGrid(); else renderCategoryGrid();
+    renderSample();
   });
 
-  searchInput.addEventListener("input", () => {
-    currentSearch = searchInput.value.trim().toLowerCase();
-    renderCategoryGrid();
-  });
+  shuffleBtn.addEventListener("click", renderSample);
 
   modalClose.addEventListener("click", closeModal);
   modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
@@ -217,19 +208,19 @@
     if (!top || !bot) return;
 
     // Show every category. Skip categories that have no generated meshes.
-    // Categories where the marquee's chosen variant is missing — pick a different idx for those.
-    const FORCE_IDX = { "outdoor/cactus": 1, "outdoor/hedge": 1, "outdoor/tree": 1 };
-    const MISSING = new Set(["outdoor/grass"]); // categories where every variant is missing
+    // For each category pick the first variant that isn't on the broken list.
+    const pickFor = (scene, category) => {
+      for (let i = 1; i <= N; i++) if (!isBroken(scene, category, i)) return i;
+      return null;
+    };
     const picks = [];
-    DATA.indoor.forEach((c, i) => {
-      if (MISSING.has(`indoor/${c}`)) return;
-      const idx = FORCE_IDX[`indoor/${c}`] ?? (i % 10) + 1;
-      picks.push({ scene: "indoor", category: c, idx });
+    DATA.indoor.forEach((c) => {
+      const idx = pickFor("indoor", c);
+      if (idx) picks.push({ scene: "indoor", category: c, idx });
     });
-    DATA.outdoor.forEach((c, i) => {
-      if (MISSING.has(`outdoor/${c}`)) return;
-      const idx = FORCE_IDX[`outdoor/${c}`] ?? (i % 10) + 1;
-      picks.push({ scene: "outdoor", category: c, idx });
+    DATA.outdoor.forEach((c) => {
+      const idx = pickFor("outdoor", c);
+      if (idx) picks.push({ scene: "outdoor", category: c, idx });
     });
 
     // Interleave so indoor & outdoor are mixed across rows
@@ -291,7 +282,7 @@
   `;
 
   // initial render
-  renderCategoryGrid();
+  renderSample();
   buildMarquee();
   tryLoadVideo();
 })();

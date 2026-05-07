@@ -118,7 +118,8 @@
     <p class="sub">
       500 objects · 50 categories · 25 indoor + 25 outdoor · 10 variants each.
       Each variant ships with a rendered preview, a natural-language description, and the
-      Blender Python script that generates the mesh. Pick a category to dive in.
+      Blender Python script that generates the mesh. Below is a fresh random sample — click any
+      mesh for the full image, description, and code.
     </p>
 
     <div class="controls">
@@ -127,12 +128,10 @@
         <span class="chip" data-scene="indoor">Indoor</span>
         <span class="chip" data-scene="outdoor">Outdoor</span>
       </div>
-      <input type="search" id="searchInput" placeholder="Search categories…" />
+      <button class="btn primary" id="shuffleBtn">🔀 Shuffle sample</button>
     </div>
 
-    <div id="explorerView">
-      <div class="cat-grid" id="catGrid"></div>
-    </div>
+    <div id="explorerView"></div>
   </div>
 </section>
 
