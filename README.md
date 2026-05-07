@@ -1,60 +1,120 @@
-# BlenderRAG
+<div align="center">
+
+# 🎨 BlenderRAG
 
 ### High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2605.00632)
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow.svg)](https://huggingface.co/datasets/MaxRondelli/BlenderRAG)
-[![HF Page](https://img.shields.io/badge/HF-Page-blue.svg)](https://huggingface.co/papers/2605.00632)
-[![Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-2ea44f.svg)](https://maxrondelli.github.io/BlenderRAG/)
+<p>
+  <a href="https://arxiv.org/abs/2605.00632"><img alt="Paper" src="https://img.shields.io/badge/📄_Paper-arXiv%3A2605.00632-b31b1b?style=for-the-badge"></a>
+  <a href="https://huggingface.co/datasets/MaxRondelli/BlenderRAG"><img alt="Dataset" src="https://img.shields.io/badge/🤗_Dataset-HuggingFace-FFD21F?style=for-the-badge"></a>
+  <a href="https://huggingface.co/papers/2605.00632"><img alt="HF Paper" src="https://img.shields.io/badge/📰_HF_Page-Discuss-3578E5?style=for-the-badge"></a>
+  <a href="https://maxrondelli.github.io/BlenderRAG/"><img alt="Demo" src="https://img.shields.io/badge/🚀_Live_Demo-GitHub_Pages-2ea44f?style=for-the-badge"></a>
+</p>
 
-**BlenderRAG** is a retrieval-augmented generation system that turns natural language descriptions into high-fidelity 3D objects in Blender. Distributed as a native Blender Add-on, it combines semantic retrieval over a curated code dataset with LLM-driven Python synthesis — so you can describe an object and watch it appear in your scene.
+<p>
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/MaxRondelli/BlenderRAG?style=social">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <img alt="Blender" src="https://img.shields.io/badge/Blender-4.0+-F5792A?logo=blender&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white">
+</p>
 
-> 💬 *"a modern wooden chair with armrests"* → 🪑 *generated mesh in your viewport*
+<br/>
+
+<h3>
+  💬 <i>"a modern wooden chair with armrests"</i> &nbsp;➜&nbsp; 🪑 <i>generated mesh in your viewport</i>
+</h3>
+
+<br/>
+
+<a href="https://maxrondelli.github.io/BlenderRAG/">
+  <img alt="Live Demo" src="https://img.shields.io/badge/▶_Try_the_Live_Demo-Browse_500_meshes,_descriptions_and_code-e0223a?style=for-the-badge">
+</a>
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+- [🎬 Demo](#-demo)
+- [🔭 Overview](#-overview)
+- [✨ Key Features](#-key-features)
+- [⚙️ How It Works](#️-how-it-works)
+- [🚀 Setup](#-setup)
+- [🧩 Blender Add-on Installation](#-blender-add-on-installation)
+- [🎨 Usage](#-usage)
+- [📊 The Dataset](#-the-dataset)
+- [🛠️ Troubleshooting](#️-troubleshooting)
+- [👥 Authors](#-authors)
+- [📚 Citation](#-citation)
 
 ---
 
 ## 🎬 Demo
 
-🌐 **Live site:** **[maxrondelli.github.io/BlenderRAG](https://maxrondelli.github.io/BlenderRAG/)**
+> 🌐 **Live site:** **<https://maxrondelli.github.io/BlenderRAG/>**
 
-The companion website lets you:
+<div align="center">
+  <a href="https://maxrondelli.github.io/BlenderRAG/">
+    <img alt="Open the live demo" src="https://img.shields.io/badge/Open_the_Live_Demo-→-e0223a?style=for-the-badge&logo=github">
+  </a>
+</div>
 
-- 📄 Read the paper and grab the BibTeX citation in one click.
-- 🧭 **Browse the dataset** — 50 categories (25 indoor + 25 outdoor), 10 variants each.
-- 🖼️ **Inspect each generated mesh** — high-resolution rendered preview, natural-language description, and the full Blender Python script that produces it.
-- 📋 **Copy or download** the generating code with a single click and run it directly in Blender to reproduce the mesh.
-- 🔍 Filter by scene (Indoor / Outdoor) and search categories by name.
+The companion website is a **fully static page hosted on GitHub Pages** (sources in [`/docs`](./docs)) that ships:
 
-The site is a static page hosted on **GitHub Pages** (sources live in [`/docs`](./docs)) and streams images, code, and descriptions live from the [Hugging Face dataset](https://huggingface.co/datasets/MaxRondelli/BlenderRAG) — no separate backend required.
+| | |
+|---|---|
+| 🎠 **Infinite rotating gallery** | All 49 categories sliding past in two opposite-direction rows on the landing page. |
+| 🧪 **Curated random sample** | A shuffleable 24-mesh sample, with a one-click *Shuffle* button — surfaces only the meshes that compiled cleanly. |
+| 🔄 **Real 3D meshes** | Every card is an actual `.glb`, rendered in-browser with [`<model-viewer>`](https://modelviewer.dev/), auto-rotating with orbit/zoom controls. |
+| 🖼️ **Original render side-by-side** | When you open a variant, you see the rotating mesh, the original PNG render, the natural-language description, and the generating Blender Python — all together. |
+| 📋 **Copy / Download** | One-click copy of the Python script or download as `.py` to reproduce in your own Blender. |
+| 🎥 **Walkthrough video** | A short demo of the add-on in action. |
+| ⭐ **Live GitHub stars** | Star count fetched live from the GitHub API on page load. |
 
-> 🚀 **Enabling the demo (one-time):** in the repo settings go to **Settings → Pages → Build and deployment**, set **Source: Deploy from a branch**, **Branch: `main` / `/docs`**, and save. The site will be live at the URL above within a minute.
+> 🔧 **First-time setup (admin only):** **Settings → Pages → Source: Deploy from a branch → Branch: `main` / `/docs` → Save.** The site is then live at the URL above.
 
 ---
 
 ## 🔭 Overview
 
-Generating 3D content from text remains challenging: end-to-end mesh generators often produce low-fidelity results, while code-driven approaches struggle with the breadth of Blender's API. **BlenderRAG** bridges this gap by retrieving semantically similar (description, code) pairs from a curated dataset and conditioning an LLM on them to produce executable Blender Python code.
+Generating 3D content from text remains challenging:
 
-The result: cleaner geometry, more controllable outputs, and a workflow that lives directly inside Blender.
+- ❌ **End-to-end mesh generators** often produce low-fidelity, blob-like geometry.
+- ❌ **Code-driven approaches** struggle with the breadth of Blender's API and produce broken scripts.
+
+**BlenderRAG bridges this gap** by retrieving semantically similar `(description, code)` pairs from a curated dataset and conditioning an LLM on them to produce executable Blender Python code.
+
+> ✅ The result: **cleaner geometry, more controllable outputs, and a workflow that lives directly inside Blender** as a native add-on.
 
 ---
 
 ## ✨ Key Features
 
-- 🧩 **Native Blender Add-on** — install once, use from the 3D viewport sidebar.
-- 🔍 **Retrieval-Augmented Generation** — grounds LLM output in a curated dataset of Blender code examples.
-- 🤖 **Multi-LLM Support** — switch between open and closed-source language models.
-- ⚡ **Automatic Code Execution** — generated Python runs in Blender without manual intervention.
-- 🗂️ **Local Vector Database** — Qdrant-based retrieval, initialized automatically on first use.
-- 🧠 **Semantic Embeddings** — powered by Nomic-AI for high-quality similarity search.
+| | |
+|---|---|
+| 🧩 **Native Blender Add-on** | Install once, use from the 3D viewport sidebar. |
+| 🔍 **Retrieval-Augmented Generation** | Grounds LLM output in a curated dataset of Blender code examples. |
+| 🤖 **Multi-LLM Support** | Switch between open and closed-source language models. |
+| ⚡ **Automatic Code Execution** | Generated Python runs in Blender without manual intervention. |
+| 🗂️ **Local Vector Database** | Qdrant-based retrieval, initialized automatically on first use. |
+| 🧠 **Semantic Embeddings** | Powered by Nomic-AI for high-quality similarity search. |
 
 ---
 
 ## ⚙️ How It Works
 
-![alt text](assets/blender-rag-pipeline.jpg)
+<p align="center">
+  <img alt="BlenderRAG pipeline" src="assets/blender-rag-pipeline.jpg" width="850">
+</p>
 
-On first run, the add-on initializes a local Qdrant database and indexes the BlenderRAG dataset. Each subsequent prompt retrieves the top-*k* most similar examples and conditions the LLM on them to synthesize Blender Python code, which is then executed directly in your scene.
+1. **Embed** — your description is encoded with Nomic-AI.
+2. **Retrieve** — top-*k* similar `(description, code)` pairs are pulled from the local Qdrant vector DB.
+3. **Prompt** — the selected LLM gets your description + retrieved context as in-context examples.
+4. **Execute** — the generated Python is run inside Blender.
+5. **Display** — the resulting mesh appears in your scene, ready to edit.
+
+> 📝 On first run, the add-on bootstraps the local Qdrant DB and indexes the BlenderRAG dataset. This is a one-time process; subsequent prompts are fast.
 
 ---
 
@@ -62,17 +122,17 @@ On first run, the add-on initializes a local Qdrant database and indexes the Ble
 
 ### Prerequisites
 
-- **Blender** 4.0 or later
-- **Python** 3.12
-- **Conda** (recommended) or any Python environment manager
-- An API key for your chosen LLM provider (if using a closed model)
+| Requirement | Version |
+|---|---|
+| 🟧 [Blender](https://www.blender.org/) | 4.0+ |
+| 🐍 Python | 3.12 |
+| 📦 Conda *(recommended)* | any |
+| 🔑 LLM API key | optional — only for closed-source models |
 
 ### Installation
 
-Clone the repository and set up the Python environment:
-
 ```bash
-git clone https://github.com/<your-org>/BlenderRAG.git
+git clone https://github.com/MaxRondelli/BlenderRAG.git
 cd BlenderRAG
 
 conda create -n blender_rag python=3.12
@@ -84,58 +144,77 @@ pip install -r requirements.txt
 
 ## 🧩 Blender Add-on Installation
 
-The add-on is installed in three steps: import the project, download dependencies, and configure.
-
-### Step 1 — Import the project into Blender
+<details open>
+<summary><strong>① Import the project into Blender</strong></summary>
 
 1. Create a `.zip` archive of the repository (compress the project folder).
 2. In Blender, open **Edit → Preferences → Add-ons**.
-3. Click the dropdown in the top-right corner and select **Install from Disk**.
-4. Choose the `.zip` file you created.
-5. Once imported, open the BlenderRAG panel in the **right sidebar** of the 3D viewport (press `N` if it's hidden).
+3. Click the dropdown in the top-right corner → **Install from Disk**.
+4. Choose the `.zip` you created.
+5. Open the BlenderRAG panel in the **right sidebar** of the 3D viewport (press <kbd>N</kbd> if hidden).
 
-### Step 2 — Download necessary dependencies
+</details>
+
+<details>
+<summary><strong>② Download dependencies</strong></summary>
 
 1. Open the **BlenderRAG** panel in the sidebar.
-2. Click **Install Dependencies** to download the required packages.
+2. Click **Install Dependencies**.
 3. Monitor progress in the **Blender Python Console**:
    - **Windows:** *Window → Toggle System Console*
    - **macOS / Linux:** *Scripting* workspace → *Python Console*
 
-> ⚠️ **Important:** You **must restart Blender** after installation completes for the dependencies to load correctly.
+> ⚠️ You **must restart Blender** after installation completes for the dependencies to load correctly.
 
-### Step 3 — Configure the add-on
+</details>
 
-In the **Settings** section of the BlenderRAG panel, configure:
+<details>
+<summary><strong>③ Configure the add-on</strong></summary>
+
+In the **Settings** section of the BlenderRAG panel:
 
 | Setting | Description |
 |---|---|
 | **LLM Selection** | Choose your preferred language model (open or closed source). |
 | **API Key** | Required for closed models. Paste it into the corresponding field. |
-| **Retrieval Count** (`k`) | Number of similar examples to retrieve from the vector database. |
+| **Retrieval Count** (`k`) | Number of similar examples to retrieve from the vector DB. |
+
+</details>
 
 ---
 
 ## 🎨 Usage
 
 1. Open the BlenderRAG panel in the 3D viewport sidebar.
-2. Enter a natural language description in the prompt box, for example:
+2. Enter a natural language description in the prompt box, e.g.:
    > `a modern wooden chair with armrests`
-3. Click **Generate**.
-
-   > 📝 **First-run note:** On your first prompt, the system automatically initializes the Qdrant vector database and indexes the dataset. This is a **one-time process** and may take a few minutes.
-
-After initialization, every prompt follows this pipeline:
-
-1. **Embed** your description using Nomic-AI.
-2. **Retrieve** the *k* most semantically similar examples from the vector DB.
-3. **Prompt** the selected LLM with your description plus the retrieved context (text + code).
-4. **Execute** the generated Python code in Blender.
-5. **Display** the resulting 3D object in your active scene.
-
-The entire flow is seamless — once the LLM responds, execution happens automatically.
+3. Click **Generate** ✨
 
 > 💡 **Tip:** Increase the **Retrieval Count** for more contextually grounded outputs on complex objects. Decrease it for faster, more open-ended generations.
+
+---
+
+## 📊 The Dataset
+
+The [BlenderRAG Hugging Face dataset](https://huggingface.co/datasets/MaxRondelli/BlenderRAG) contains:
+
+<div align="center">
+
+|  | Indoor | Outdoor | **Total** |
+|---|:---:|:---:|:---:|
+| **Categories** | 25 | 25 | **50** |
+| **Variants per category** | 10 | 10 | **10** |
+| **Objects** | 250 | 250 | **500** |
+
+</div>
+
+Each variant ships with three artifacts:
+
+- 🖼️ **`imageN.png`** — high-resolution rendered preview
+- 💻 **`codeN.py`** — Blender Python script that produces the mesh
+- 📝 **`txtN.txt`** — natural-language description used for retrieval
+
+🎮 **Browse it interactively** in the [live demo](https://maxrondelli.github.io/BlenderRAG/) — the site streams meshes, images and code straight from Hugging Face.
 
 ---
 
@@ -150,7 +229,7 @@ Make sure it's enabled: **Edit → Preferences → Add-ons**, search for "Blende
 <details>
 <summary><strong>Dependencies fail to install</strong></summary>
 
-Check that Blender has internet access and that you've launched Blender with sufficient permissions. On Windows, try running Blender as administrator. Then click **Install Dependencies** again.
+Check that Blender has internet access and that you've launched it with sufficient permissions. On Windows, try running Blender as administrator. Then click **Install Dependencies** again.
 </details>
 
 <details>
@@ -173,18 +252,41 @@ Check the Blender System Console for the error. Common causes are unsupported Bl
 
 ---
 
+## 👥 Authors
+
+<div align="center">
+
+| Massimo Rondelli | Francesco Pivi | Maurizio Gabbrielli |
+|:---:|:---:|:---:|
+| Department of Computer Science<br/>and Engineering | Department of Computer Science<br/>and Engineering | Department of Computer Science<br/>and Engineering |
+| 🎓 University of Bologna | 🎓 University of Bologna | 🎓 University of Bologna |
+
+</div>
+
+---
+
 ## 📚 Citation
 
-If you use BlenderRAG in your research, please cite us:
+If you use BlenderRAG in your research, please cite:
 
 ```bibtex
 @misc{rondelli2026blenderraghighfidelity3dobject,
-      title={BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis},
-      author={Massimo Rondelli and Francesco Pivi and Maurizio Gabbrielli},
-      year={2026},
-      eprint={2605.00632},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2605.00632},
+  title         = {BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis},
+  author        = {Massimo Rondelli and Francesco Pivi and Maurizio Gabbrielli},
+  year          = {2026},
+  eprint        = {2605.00632},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2605.00632},
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ **Star this repo** if BlenderRAG is useful in your work — it really helps the project!
+
+<sub>Made with ❤️ at the University of Bologna</sub>
+
+</div>
