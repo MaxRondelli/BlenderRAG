@@ -16,6 +16,7 @@
     <div class="brand"><span class="dot"></span> BlenderRAG</div>
     <nav class="nav">
       <a href="#paper">Paper</a>
+      <a href="#video">Video</a>
       <a href="#explorer">Demo</a>
       <a href="#cite">Cite</a>
       <a href="https://github.com/MaxRondelli/BlenderRAG" target="_blank" rel="noopener">GitHub</a>
@@ -39,6 +40,14 @@
       <a class="badge" href="#explorer">🧭 Explore the Dataset</a>
     </div>
   </div>
+
+  <!-- Infinite rotating marquee, two opposite-direction rows -->
+  <div class="container" style="margin-top: 40px;">
+    <div class="marquee" id="marquee">
+      <div class="marquee-row"><div class="marquee-track" id="marqueeTop"></div></div>
+      <div class="marquee-row reverse"><div class="marquee-track" id="marqueeBot"></div></div>
+    </div>
+  </div>
 </section>
 
 <section id="paper">
@@ -53,7 +62,22 @@
         <span class="tag">2026</span>
       </div>
       <h3>BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis</h3>
-      <div class="authors">Massimo Rondelli · Francesco Pivi · Maurizio Gabbrielli</div>
+
+      <div class="authors-grid">
+        <div class="author">
+          <div class="a-name">Massimo Rondelli</div>
+          <div class="a-aff">Department of Computer Science and Engineering · University of Bologna</div>
+        </div>
+        <div class="author">
+          <div class="a-name">Francesco Pivi</div>
+          <div class="a-aff">Department of Computer Science and Engineering · University of Bologna</div>
+        </div>
+        <div class="author">
+          <div class="a-name">Maurizio Gabbrielli</div>
+          <div class="a-aff">Department of Computer Science and Engineering · University of Bologna</div>
+        </div>
+      </div>
+
       <p>
         Generating 3D content from text remains challenging: end-to-end mesh generators often
         produce low-fidelity results, while code-driven approaches struggle with the breadth of
@@ -67,6 +91,34 @@
         <a class="btn primary" href="https://arxiv.org/abs/2605.00632" target="_blank" rel="noopener">Open on arXiv ↗</a>
         <a class="btn" href="https://arxiv.org/pdf/2605.00632" target="_blank" rel="noopener">Download PDF</a>
         <a class="btn" href="https://huggingface.co/papers/2605.00632" target="_blank" rel="noopener">Discuss on Hugging Face</a>
+      </div>
+
+      <div class="paper-preview" id="paperPreview">
+        <iframe
+          src="https://arxiv.org/pdf/2605.00632"
+          title="BlenderRAG paper preview"
+          loading="lazy"
+          referrerpolicy="no-referrer"
+          onerror="document.getElementById('paperPreview').innerHTML = paperFallbackHTML()"
+        ></iframe>
+      </div>
+      <p class="sub" style="margin-top: 10px; font-size: 13px;">
+        If the embedded reader doesn't load (some browsers block cross-origin PDFs), use the
+        <a href="https://arxiv.org/pdf/2605.00632" target="_blank" rel="noopener">Download PDF</a> button above.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="video">
+  <div class="container">
+    <h2>Video</h2>
+    <p class="sub">A short walkthrough of BlenderRAG generating meshes from natural language inside Blender.</p>
+    <div class="video-card" id="videoCard">
+      <!-- Drop a file at docs/assets/demo.mp4 to auto-replace this placeholder. -->
+      <div class="video-placeholder">
+        <div class="vp-title">No video uploaded yet</div>
+        <div>Add a clip at <code>docs/assets/demo.mp4</code> (or set <code>data-video</code> on the card to a YouTube URL) and it will appear here automatically.</div>
       </div>
     </div>
   </div>

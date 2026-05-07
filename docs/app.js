@@ -202,6 +202,78 @@
     }
   });
 
+  // ---- marquee (infinite rotating two-row gallery) ----
+  const buildMarquee = () => {
+    const top = document.getElementById("marqueeTop");
+    const bot = document.getElementById("marqueeBot");
+    if (!top || !bot) return;
+
+    // Curated picks across categories for visual variety
+    const picks = [];
+    const indoorPicks = ["chair", "sofa", "lamp", "bed", "table", "armchair", "wardrobe", "plant", "frame", "rug", "fridge", "candle"];
+    const outdoorPicks = ["tree", "fountain", "car", "bench", "gazebo", "cactus", "street_lamp", "stoplight", "rock", "humanoid_statue", "skyscrapers", "bell_tower"];
+    indoorPicks.forEach((c, i) => picks.push({ scene: "indoor", category: c, idx: (i % 10) + 1 }));
+    outdoorPicks.forEach((c, i) => picks.push({ scene: "outdoor", category: c, idx: (i % 10) + 1 }));
+
+    const half = Math.ceil(picks.length / 2);
+    const rowA = picks.slice(0, half);
+    const rowB = picks.slice(half).concat(picks.slice(0, 2)); // pad a bit
+
+    const card = ({ scene, category, idx }) => {
+      const url = `${HF}/${scene}/${category}/image${idx}.png`;
+      const el = document.createElement("div");
+      el.className = "m-card";
+      el.title = `${titleCase(category)} — open variant`;
+      el.innerHTML = `
+        <img src="${url}" loading="lazy" alt="${category}" />
+        <span class="label">${titleCase(category)}</span>
+      `;
+      el.addEventListener("click", () => openVariant(scene, category, idx));
+      return el;
+    };
+
+    // Duplicate the list for a seamless loop (CSS animates 0 → -50%).
+    const fill = (track, list) => {
+      const frag = document.createDocumentFragment();
+      [...list, ...list].forEach((p) => frag.appendChild(card(p)));
+      track.appendChild(frag);
+    };
+    fill(top, rowA);
+    fill(bot, rowB);
+  };
+
+  // ---- video presence check (replaces placeholder if asset exists) ----
+  const tryLoadVideo = async () => {
+    const card = document.getElementById("videoCard");
+    if (!card) return;
+    const youTube = card.dataset.video;
+    if (youTube) {
+      const idMatch = youTube.match(/(?:v=|youtu\.be\/|embed\/)([\w-]{6,})/);
+      const id = idMatch ? idMatch[1] : null;
+      if (id) {
+        card.innerHTML = `<iframe src="https://www.youtube.com/embed/${id}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        return;
+      }
+    }
+    // Try local mp4
+    try {
+      const r = await fetch("assets/demo.mp4", { method: "HEAD" });
+      if (r.ok) {
+        card.innerHTML = `<video controls preload="metadata" poster=""><source src="assets/demo.mp4" type="video/mp4"></video>`;
+      }
+    } catch { /* keep placeholder */ }
+  };
+
+  // ---- paper fallback (used by iframe onerror) ----
+  window.paperFallbackHTML = () => `
+    <div class="pp-fallback">
+      <p>The embedded reader couldn't load the PDF inline.</p>
+      <p><a href="https://arxiv.org/pdf/2605.00632" target="_blank" rel="noopener">Download the paper from arXiv ↗</a></p>
+    </div>
+  `;
+
   // initial render
   renderCategoryGrid();
+  buildMarquee();
+  tryLoadVideo();
 })();
