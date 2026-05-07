@@ -66,7 +66,7 @@ directly from the Hugging Face dataset:
 
 > <https://maxrondelli.github.io/BlenderRAG/>
 
-It includes (i) a continuous gallery of 49 categories rendered live as 3D meshes
+It includes (i) a continuous gallery of 50 categories rendered live as 3D meshes
 via [`<model-viewer>`](https://modelviewer.dev/), (ii) a shuffleable curated
 sample of variants, (iii) a per-variant view showing the rotating mesh, the
 original render, the description, and the generating script, and (iv) a short
