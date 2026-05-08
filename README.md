@@ -1,53 +1,38 @@
-# BlenderRAG
-
-**High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis**
-
-Massimo Rondelli, Francesco Pivi, Maurizio Gabbrielli
-
-[![arXiv](https://img.shields.io/badge/arXiv-2605.00632-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2605.00632)
-[![Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21F.svg?style=flat-square)](https://huggingface.co/datasets/MaxRondelli/BlenderRAG)
-[![HF Paper](https://img.shields.io/badge/Hugging%20Face-Paper-3578E5.svg?style=flat-square)](https://huggingface.co/papers/2605.00632)
-[![Project Page](https://img.shields.io/badge/Project%20Page-Live-2ea44f.svg?style=flat-square)](https://maxrondelli.github.io/BlenderRAG/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-
-> **Project page:** <https://maxrondelli.github.io/BlenderRAG/> &nbsp;·&nbsp; **Paper:** [arXiv:2605.00632](https://arxiv.org/abs/2605.00632) &nbsp;·&nbsp; **Dataset:** [HF Hub](https://huggingface.co/datasets/MaxRondelli/BlenderRAG)
-
----
-
-## Abstract
-
-Generating high-fidelity 3D content from natural language remains an open problem.
-End-to-end mesh generators tend to produce low-fidelity geometry; pure code-driven
-approaches struggle with the breadth of Blender's API and frequently emit invalid
-scripts. We propose **BlenderRAG**, a retrieval-augmented code-synthesis system
-that conditions a large language model on semantically retrieved
-*(description, code)* pairs from a curated dataset of 500 hand-authored Blender
-scripts. The model emits executable Blender Python that, when run, produces a
-clean editable mesh in a live Blender session. We release the dataset, a
-companion Blender add-on, and a project page for reproducibility.
-
-## Contents
-
-1. [Method](#method)
-2. [Project Page & Demo](#project-page--demo)
-3. [Dataset](#dataset)
-4. [Installation](#installation)
-5. [Add-on Setup](#add-on-setup)
-6. [Usage](#usage)
-7. [Repository Layout](#repository-layout)
-8. [Troubleshooting](#troubleshooting)
-9. [Authors](#authors)
-10. [Citation](#citation)
-11. [License](#license)
-
-## Method
-
+<h1 align="center"> BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis </h1>
 <p align="center">
-  <img alt="BlenderRAG pipeline" src="assets/blender-rag-pipeline.jpg" width="780">
+  <strong>Massimo Rondelli</strong><sup> 1</sup>,
+  <strong>Francesco Pivi</strong><sup> 1,2</sup>,
+  <strong>Maurizio Gabbrielli</strong><sup> 1</sup>
+</p>
+<p align="center">
+  <sup>1 </sup>University of Bologna, Bologna, Italy<br>
+  <sup>2 </sup>Ferrari S.p.A., Maranello, Italy
 </p>
 
-Given a natural-language description, BlenderRAG executes the following pipeline:
+<p align="center">
+   <!-- <a href="https://maxrondelli.github.io/BlenderRAG/"><img src="https://img.shields.io/badge/Project%20Page-Live-2ea44f.svg?style=flat-square" alt="Project Page"></a> -->
+   <a href="https://arxiv.org/abs/2605.00632"><img src="https://img.shields.io/badge/arXiv-2605.00632-b31b1b.svg?style=flat-square" alt="Paper"></a>
+   <a href="https://huggingface.co/datasets/MaxRondelli/BlenderRAG"><img src="https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21F.svg?style=flat-square" alt="Dataset"></a>
+   <a href="https://huggingface.co/papers/2605.00632"><img src="https://img.shields.io/badge/Hugging%20Face-Paper-3578E5.svg?style=flat-square" alt="HF Paper"></a>
+</p>
 
+<p align="center">
+  <a href="https://maxrondelli.github.io/BlenderRAG/">
+    <img src="https://img.shields.io/badge/🌐%20Visit%20Project%20Page-2ea44f?style=for-the-badge" alt="Project Page" height="40">
+  </a>
+</p>
+
+## Abstract
+Automatic generation of executable Blender code from natural language remains challenging, with
+state-of-the-art LLMs producing frequent syntactic errors and geometrically inconsistent objects. We
+present BlenderRAG, a retrieval-augmented generation system that operates on a curated multimodal dataset of 500 expert-validated examples (text, code, image) across 50 object categories.
+By retrieving semantically similar examples during generation, BlenderRAG improves compilation
+success rates from 40.8% to 70.0% and semantic normalized alignment from 0.41 to 0.77 (CLIP
+similarity) across four state-of-the-art LLMs, without requiring fine-tuning or specialized hardware,
+making it immediately accessible for deployment.
+
+## Method
+Given a natural-language description, BlenderRAG executes the following pipeline:
 1. **Embed.** The query is encoded with a Nomic-AI sentence-embedding model.
 2. **Retrieve.** The top-*k* most similar *(description, code)* pairs are
    retrieved from a local Qdrant vector database initialised on first launch.
@@ -58,52 +43,24 @@ Given a natural-language description, BlenderRAG executes the following pipeline
    downstream editing.
 
 The vector database is built once per machine and re-used across sessions.
-
-## Project Page & Demo
-
-The project page hosts a static site that streams meshes, code, and descriptions
-directly from the Hugging Face dataset:
-
-> <https://maxrondelli.github.io/BlenderRAG/>
-
-It includes (i) a continuous gallery of 50 categories rendered live as 3D meshes
-via [`<model-viewer>`](https://modelviewer.dev/), (ii) a shuffleable curated
-sample of variants, (iii) a per-variant view showing the rotating mesh, the
-original render, the description, and the generating script, and (iv) a short
-walkthrough video of the add-on in use.
-
-To enable Pages on a fresh fork, set
-**Settings → Pages → Source: Deploy from a branch → Branch: `main` / `/docs`**.
+<p align="center">
+  <img alt="BlenderRAG pipeline" src="assets/blender-rag-pipeline.jpg" width="1920">
+</p>
 
 ## Dataset
-
 The [BlenderRAG dataset](https://huggingface.co/datasets/MaxRondelli/BlenderRAG)
-ships **500 objects** organised into **50 categories** (25 indoor, 25 outdoor),
+has **500 objects** organised into **50 categories** (25 indoor, 25 outdoor),
 with **10 variants per category**. Each variant comprises three artifacts:
 
 | File | Type | Description |
 |---|---|---|
-| `imageN.png` | PNG | Cycles-rendered preview of the mesh |
-| `codeN.py`   | Python | Blender script that generates the mesh |
-| `txtN.txt`   | UTF-8 text | Natural-language description used for retrieval |
+| `image_N.png` | PNG | Snapshot of the mesh |
+| `code_N.py`   | Python | Blender script that generates the mesh |
+| `txt_N.txt`   | UTF-8 text | Natural-language description of the mesh |
 
-Splits `indoor` and `outdoor` are also available as Parquet files for direct
-ingestion via 🤗 `datasets`.
+Splits `indoor` and `outdoor` are also available as Parquet files for direct ingestion via 🤗 `datasets`.
 
-```python
-from datasets import load_dataset
-ds = load_dataset("MaxRondelli/BlenderRAG")
-print(ds)            # DatasetDict({indoor: ..., outdoor: ...})
-```
-
-## Installation
-
-**Requirements**
-
-- Blender ≥ 4.0
-- Python 3.12
-- An LLM API key (only required for closed-source providers)
-
+## Add-on Setup
 ```bash
 git clone https://github.com/MaxRondelli/BlenderRAG.git
 cd BlenderRAG
@@ -113,10 +70,9 @@ conda activate blender_rag
 pip install -r requirements.txt
 ```
 
-## Add-on Setup
 
 **1. Install the add-on in Blender.**
-Zip the repository and load it via *Edit → Preferences → Add-ons →
+Zip the current repository and load it via *Edit → Preferences → Add-ons →
 Install from Disk*. After installation, open the BlenderRAG panel from the 3D
 viewport sidebar (<kbd>N</kbd>).
 
@@ -127,7 +83,7 @@ Blender Python Console:
 - *Windows*: Window → Toggle System Console
 - *macOS / Linux*: Scripting workspace → Python Console
 
-Restart Blender after installation completes.
+NOTE: Restart Blender after installation completes.
 
 **3. Configure the add-on.**
 
@@ -148,30 +104,6 @@ indexes the dataset; this is a one-time cost. Subsequent generations are fast.
 Larger values of *k* yield more grounded outputs at the cost of latency; smaller
 values are more open-ended.
 
-## Repository Layout
-
-```
-BlenderRAG/
-├── __init__.py                 # Add-on entry point
-├── operators.py                # Blender operators
-├── panels.py                   # Sidebar UI
-├── properties.py               # Add-on settings
-├── llm.py                      # LLM client wrappers
-├── rag.py                      # Retrieval pipeline
-├── vector_store.py             # Qdrant wrapper
-├── dataset_json_creation.py    # Dataset preprocessing
-├── config.py                   # Constants and paths
-├── utils.py
-├── requirements.txt
-├── assets/                     # Pipeline diagram and figures
-└── docs/                       # Project page (GitHub Pages)
-    ├── index.html
-    ├── app.js
-    ├── style.css
-    ├── data.js
-    ├── meshes/                 # Pre-exported .glb meshes
-    └── assets/                 # Walkthrough video
-```
 
 ## Troubleshooting
 
@@ -211,16 +143,7 @@ unsupported Blender versions or invalid API keys. Increasing *k* often produces
 more grounded scripts.
 </details>
 
-## Authors
-
-| Author | Affiliation |
-|---|---|
-| **Massimo Rondelli** | Department of Computer Science and Engineering, University of Bologna |
-| **Francesco Pivi** | Department of Computer Science and Engineering, University of Bologna · Ferrari S.p.A. |
-| **Maurizio Gabbrielli** | Department of Computer Science and Engineering, University of Bologna |
-
 ## Citation
-
 ```bibtex
 @misc{rondelli2026blenderraghighfidelity3dobject,
   title         = {BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis},
@@ -232,7 +155,3 @@ more grounded scripts.
   url           = {https://arxiv.org/abs/2605.00632},
 }
 ```
-
-## License
-
-Released under the [MIT License](LICENSE).
